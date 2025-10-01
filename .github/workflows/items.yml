@@ -27,10 +27,10 @@ jobs:
           python main.py download --tmp tmp
           python main.py codex --tmp tmp --output data
 
-      - name: Commit and push updated items.json
+      - name: Commit and push updated data
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add data/items.json
-          git commit -m "Update items.json [ci skip]" || echo "No changes"
+          git add data/*.json
+          git commit -m "Update codex JSON [ci skip]" || echo "No changes"
           git push
