@@ -23,10 +23,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run items spider
+      - name: Run crawler (download + codex)
         run: |
           mkdir -p data
-          python main.py codex --output data
+          python main.py download --tmp tmp
+          python main.py codex --tmp tmp --output data
 
       - name: Commit and push updated items.json
         run: |
