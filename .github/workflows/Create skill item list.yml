@@ -1,10 +1,10 @@
-name: Create list
+name: Export Orna Lists
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:   # only manual trigger
 
 jobs:
-  crawl-items:
+  export-lists:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,17 +15,6 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Run crawler (download + codex)
-        run: |
-          mkdir -p data
-          python main.py download --tmp tmp
-          python main.py codex --tmp tmp --output data
 
       - name: Export itemlist.json and spelllist.json
         run: |
@@ -42,18 +31,18 @@ jobs:
           i18n_spells = en.get("spells", {})
 
           # Collect usable items (simple list of names)
-          usable_item_names = [
+          usable_item_names = sorted([
               i18n_items[item_id]["name"]
               for item_id, item in items.items()
               if item.get("item_type") == "useable" and item_id in i18n_items
-          ]
+          ])
 
           # Collect all spells (simple list of names)
-          spell_names = [
+          spell_names = sorted([
               i18n_spells[spell_id]["name"]
               for spell_id in spells.keys()
               if spell_id in i18n_spells
-          ]
+          ])
 
           pathlib.Path("data/itemlist.json").write_text(
               json.dumps(usable_item_names, indent=2, ensure_ascii=False), encoding="utf-8"
@@ -63,10 +52,10 @@ jobs:
           )
           EOF
 
-      - name: Commit and push updated data
+      - name: Commit and push updated lists
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add data/
-          git commit -m "Update codex + lists [ci skip]" || echo "No changes"
+          git add data/itemlist.json data/spelllist.json
+          git commit -m "Update itemlist + spelllist [ci skip]" || echo "No changes"
           git push
