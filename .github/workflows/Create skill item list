@@ -1,0 +1,72 @@
+name: Update Orna Items
+
+on:
+  workflow_dispatch:
+
+jobs:
+  crawl-items:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run crawler (download + codex)
+        run: |
+          mkdir -p data
+          python main.py download --tmp tmp
+          python main.py codex --tmp tmp --output data
+
+      - name: Export itemlist.json and spelllist.json
+        run: |
+          python - <<'EOF'
+          import json, pathlib
+
+          codex = json.load(open("data/codex.json", encoding="utf-8"))
+          en = json.load(open("data/i18n/en.json", encoding="utf-8"))
+
+          items = codex.get("items", {})
+          spells = codex.get("spells", {})
+
+          i18n_items = en.get("items", {})
+          i18n_spells = en.get("spells", {})
+
+          # Collect usable items (simple list of names)
+          usable_item_names = [
+              i18n_items[item_id]["name"]
+              for item_id, item in items.items()
+              if item.get("item_type") == "useable" and item_id in i18n_items
+          ]
+
+          # Collect all spells (simple list of names)
+          spell_names = [
+              i18n_spells[spell_id]["name"]
+              for spell_id in spells.keys()
+              if spell_id in i18n_spells
+          ]
+
+          pathlib.Path("data/itemlist.json").write_text(
+              json.dumps(usable_item_names, indent=2, ensure_ascii=False), encoding="utf-8"
+          )
+          pathlib.Path("data/spelllist.json").write_text(
+              json.dumps(spell_names, indent=2, ensure_ascii=False), encoding="utf-8"
+          )
+          EOF
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add data/
+          git commit -m "Update codex + lists [ci skip]" || echo "No changes"
+          git push
