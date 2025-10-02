@@ -1,4 +1,4 @@
-name: Update Orna Items
+name: Create list
 
 on:
   workflow_dispatch:
