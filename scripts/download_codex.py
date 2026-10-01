@@ -68,6 +68,40 @@ def find_section(data, names):
                 if hits:
                     return f"[{field}]", hits
     return None, None
+def collect_effects(data):
+    """Walk the whole database and collect every status effect referenced
+    under keys like causes/gives/immunities. Returns {name_or_id: info}."""
+    found = {}
+
+    def add(value, source_key):
+        if isinstance(value, (str, int)):
+            entry = found.setdefault(str(value), {"seen_in": set()})
+            entry["seen_in"].add(source_key)
+        elif isinstance(value, dict):
+            key = value.get("id") or value.get("name") or value.get("slug")
+            if key is not None:
+                entry = found.setdefault(str(key), {"seen_in": set()})
+                entry["seen_in"].add(source_key)
+                for k in ("name", "icon", "id", "description"):
+                    if k in value:
+                        entry[k] = value[k]
+
+    def walk(node):
+        if isinstance(node, dict):
+            for k, v in node.items():
+                if any(w in k.lower() for w in EFFECT_KEYS) and isinstance(v, list):
+                    for x in v:
+                        add(x, k)
+                else:
+                    walk(v)
+        elif isinstance(node, list):
+            for x in node:
+                walk(x)
+
+    walk(data)
+    for v in found.values():
+        v["seen_in"] = sorted(v["seen_in"])
+    return found
 
 
 def parse_body(body):
