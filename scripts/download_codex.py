@@ -15,7 +15,12 @@ FORCE = os.environ.get("FORCE", "").lower() in ("1", "true", "yes")
 SECTIONS = {
     "items": ("items", "item"),
     "skills": ("spells", "spell", "skills", "skill", "abilities"),
+    "status_effects": ("status_effects", "statuses", "status", "effects",
+                       "status_effect", "conditions", "buffs", "debuffs"),
 }
+
+# Keys inside items/skills/monsters that usually hold status effects
+EFFECT_KEYS = ("cause", "causes", "give", "gives", "immunit", "status", "effect", "buff", "debuff")
 SUMMARY = []
 
 
