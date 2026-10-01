@@ -1,0 +1,1942 @@
+{
+  "aegirstance": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "aegirstance",
+    "name": "Aegir",
+    "icon": "img/statuses/aegir.png",
+    "description": ""
+  },
+  "appease": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "appease",
+    "name": "T. Target ↓",
+    "icon": "img/statuses/appease.png",
+    "description": ""
+  },
+  "aquilarune": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "aquilarune",
+    "name": "Aquila Sigil",
+    "icon": "img/effects/aquila.png",
+    "description": ""
+  },
+  "arcanealigned": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "arcanealigned",
+    "name": "Arcane Aligned",
+    "icon": "img/statuses/arcane_aligned.png",
+    "description": ""
+  },
+  "arcaneboosted": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "arcaneboosted",
+    "name": "Arcane ↑↑",
+    "icon": "img/statuses/arcane_imbue.png",
+    "description": ""
+  },
+  "asleep": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "asleep",
+    "name": "Asleep",
+    "icon": "img/statuses/sleep.png",
+    "description": "When asleep in combat, one is unable to act on their turn. However, they will wake upon receiving damage."
+  },
+  "asteriastance": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "asteriastance",
+    "name": "Asteria of Olympia",
+    "icon": "img/statuses/asteria.png",
+    "description": ""
+  },
+  "atlasstance": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "atlasstance",
+    "name": "Atlas of Olympia",
+    "icon": "img/statuses/atlas.png",
+    "description": ""
+  },
+  "attackdown": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "attackdown",
+    "name": "Att ↓",
+    "icon": "img/statuses/attack_down.png",
+    "description": ""
+  },
+  "attackgait": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "attackgait",
+    "name": "Gunnr",
+    "icon": "img/statuses/gunnr.png",
+    "description": ""
+  },
+  "attackup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "attackup",
+    "name": "Att ↑",
+    "icon": "img/statuses/attack_up.png",
+    "description": ""
+  },
+  "berserk": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "berserk",
+    "name": "Dmg ↑",
+    "icon": "img/statuses/berserk.png",
+    "description": ""
+  },
+  "bigappease": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "bigappease",
+    "name": "T. Target ↓↓",
+    "icon": "img/statuses/appease_double.png",
+    "description": ""
+  },
+  "bigattackup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "bigattackup",
+    "name": "Att ↑↑",
+    "icon": "img/statuses/attack_up_double.png",
+    "description": ""
+  },
+  "bigberserk": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "bigberserk",
+    "name": "All ↑",
+    "icon": "img/statuses/berserk_double.png",
+    "description": ""
+  },
+  "bigdefensedown": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "bigdefensedown",
+    "name": "Def ↓↓",
+    "icon": "img/statuses/defense_down_double.png",
+    "description": ""
+  },
+  "bigdefenseup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "bigdefenseup",
+    "name": "Def ↑↑",
+    "icon": "img/statuses/defense_up_double.png",
+    "description": ""
+  },
+  "bigdmgdown": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "bigdmgdown",
+    "name": "T. Dmg ↓↓",
+    "icon": "img/statuses/attack_down_double_temp.png",
+    "description": ""
+  },
+  "bigforesightup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "bigforesightup",
+    "name": "Foresight ↑↑",
+    "icon": "img/statuses/foresight_up_double.png",
+    "description": ""
+  },
+  "bigmagicdefensedown": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "bigmagicdefensedown",
+    "name": "Res ↓↓",
+    "icon": "img/statuses/magic_defense_down_double.png",
+    "description": ""
+  },
+  "bigmagicdefenseup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "bigmagicdefenseup",
+    "name": "Res ↑↑",
+    "icon": "img/statuses/magic_defense_up_double.png",
+    "description": ""
+  },
+  "bigmagicup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "bigmagicup",
+    "name": "Mag ↑↑",
+    "icon": "img/statuses/magic_up_double.png",
+    "description": ""
+  },
+  "bigprovoke": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "bigprovoke",
+    "name": "T. Target ↑↑",
+    "icon": "img/statuses/provoke_double.png",
+    "description": ""
+  },
+  "bigtempered": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "bigtempered",
+    "name": "Tempered ↓↓",
+    "icon": "img/statuses/tempered_double.png",
+    "description": ""
+  },
+  "bleeding": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "bleeding",
+    "name": "Bleeding",
+    "icon": "img/statuses/bleeding.png",
+    "description": "When bleeding in combat, one is less likely to deal a critical hit and takes damage on every turn."
+  },
+  "blighted": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "blighted",
+    "name": "Blight",
+    "icon": "img/statuses/blighted.png",
+    "description": "When afflicted with blight in combat, one takes damage on every turn and may temporarily be unable to act on their turn."
+  },
+  "blinded": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "blinded",
+    "name": "Blind",
+    "icon": "img/statuses/blind.png",
+    "description": "When blinded in combat, one is more likely to miss their attacks against an opponent."
+  },
+  "bloodshift": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "bloodshift",
+    "name": "Bloodshift",
+    "icon": "img/statuses/bloodshift.png",
+    "description": "When afflicted with bloodshift, it will not be possible to heal or revive oneself."
+  },
+  "break": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "break",
+    "name": "T. All ↓",
+    "icon": "img/statuses/break.png",
+    "description": ""
+  },
+  "brittle": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "brittle",
+    "name": "Brittle",
+    "icon": "img/statuses/break.png",
+    "description": ""
+  },
+  "brynhild": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "brynhild",
+    "name": "Brynhild ↑↑",
+    "icon": "img/statuses/brynhild.png",
+    "description": ""
+  },
+  "brynhildii": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "brynhildii",
+    "name": "Brynhild ↑↑↑",
+    "icon": "img/statuses/brynhild.png",
+    "description": ""
+  },
+  "burning": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "burning",
+    "name": "Burning",
+    "icon": "img/statuses/burning.png",
+    "description": "When burning in combat, one takes damage on every turn and has their attack and magic stats lowered."
+  },
+  "carinarune": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "carinarune",
+    "name": "Carina Sigil",
+    "icon": "img/effects/carina.png",
+    "description": ""
+  },
+  "castorfirst": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "castorfirst",
+    "name": "Castor",
+    "icon": "img/bosses/castor.png",
+    "description": ""
+  },
+  "cerusdefenseup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "cerusdefenseup",
+    "name": "Defending",
+    "icon": "img/statuses/defense_up_triple.png",
+    "description": ""
+  },
+  "cerusreseup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "cerusreseup",
+    "name": "Defending",
+    "icon": "img/statuses/magic_defense_up_triple.png",
+    "description": ""
+  },
+  "channeled": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "channeled",
+    "name": "T. All ↑↑↑",
+    "icon": "img/statuses/channel.png",
+    "description": ""
+  },
+  "confused": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "confused",
+    "name": "Confused",
+    "icon": "img/statuses/confuse.png",
+    "description": "When afflicted with confusion in combat, one may not perform the actions they intended."
+  },
+  "critup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "critup",
+    "name": "Crit ↑",
+    "icon": "img/statuses/crit_up.png",
+    "description": ""
+  },
+  "cruxrune": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "cruxrune",
+    "name": "Crux Sigil",
+    "icon": "img/effects/crux.png",
+    "description": ""
+  },
+  "cursed": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "cursed",
+    "name": "Cursed",
+    "icon": "img/statuses/cursed.png",
+    "description": "When cursed in combat, one takes moderate damage on every turn."
+  },
+  "cursesekhmet": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "cursesekhmet",
+    "name": "Curse of Sekhmet",
+    "icon": "img/bosses/thronemakers_sekhmet.png",
+    "description": "When afflicted with this curse, it will not be possible to heal or revive oneself. Additionally, one will take damage each turn."
+  },
+  "darkaligned": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "darkaligned",
+    "name": "Dark Aligned",
+    "icon": "img/statuses/dark_aligned.png",
+    "description": ""
+  },
+  "darkblight": {
+    "seen_in": [
+      "immunities",
+      "statuses"
+    ],
+    "id": "darkblight",
+    "name": "Darkblight",
+    "icon": "img/statuses/dark_rune.png",
+    "description": ""
+  },
+  "darkfacade": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "darkfacade",
+    "name": "T. Dark Immune",
+    "icon": "img/statuses/dark_wall.png",
+    "description": ""
+  },
+  "darkfacadeii": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "darkfacadeii",
+    "name": "T. Dark Immune ↑↑",
+    "icon": "img/statuses/dark_wall.png",
+    "description": ""
+  },
+  "darkrune": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "darkrune",
+    "name": "Dark Sigil",
+    "icon": "img/statuses/dark_rune.png",
+    "description": ""
+  },
+  "darkveil": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "darkveil",
+    "name": "Darkveil",
+    "icon": "img/statuses/shadowveil.png",
+    "description": ""
+  },
+  "darkwall": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "darkwall",
+    "name": "Dark Def",
+    "icon": "img/statuses/dark_wall.png",
+    "description": ""
+  },
+  "defending": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "defending",
+    "name": "Defending",
+    "icon": "img/statuses/defense_up.png",
+    "description": ""
+  },
+  "defensedown": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "defensedown",
+    "name": "Def ↓",
+    "icon": "img/statuses/defense_down.png",
+    "description": ""
+  },
+  "defensegait": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "defensegait",
+    "name": "Kára",
+    "icon": "img/statuses/kara.png",
+    "description": ""
+  },
+  "defenseup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "defenseup",
+    "name": "Def ↑",
+    "icon": "img/statuses/defense_up.png",
+    "description": ""
+  },
+  "defgait": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "defgait",
+    "name": "Hildr",
+    "icon": "img/statuses/hildr.png",
+    "description": ""
+  },
+  "dexdown": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "dexdown",
+    "name": "T. Dex ↓",
+    "icon": "img/statuses/dex_down_temp.png",
+    "description": ""
+  },
+  "dexup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "dexup",
+    "name": "Dex ↑",
+    "icon": "img/statuses/dex_up.png",
+    "description": ""
+  },
+  "dmgdown": {
+    "seen_in": [
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "dmgdown",
+    "name": "T. Dmg ↓",
+    "icon": "img/statuses/attack_down_double_temp.png",
+    "description": ""
+  },
+  "doom": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "doom",
+    "name": "Doom",
+    "icon": "img/statuses/doom.png",
+    "description": "When afflicted with doom in combat, one will find certain doom after some time."
+  },
+  "dracorune": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "dracorune",
+    "name": "Draco Sigil",
+    "icon": "img/effects/draco.png",
+    "description": ""
+  },
+  "dragonaligned": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "dragonaligned",
+    "name": "Dragon Aligned",
+    "icon": "img/statuses/dragon_aligned.png",
+    "description": ""
+  },
+  "dragonblight": {
+    "seen_in": [
+      "immunities",
+      "statuses"
+    ],
+    "id": "dragonblight",
+    "name": "Drakeblight",
+    "icon": "img/statuses/dragon_rune.png",
+    "description": ""
+  },
+  "dragonboosted": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "dragonboosted",
+    "name": "Dragon ↑↑",
+    "icon": "img/statuses/dragon_imbue.png",
+    "description": ""
+  },
+  "dragonrune": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "dragonrune",
+    "name": "Dragon Sigil",
+    "icon": "img/statuses/dragon_rune.png",
+    "description": ""
+  },
+  "drenched": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "drenched",
+    "name": "Drenched",
+    "icon": "img/statuses/drenched.png",
+    "description": "When drenched in combat, one may slip and fall."
+  },
+  "dumbr": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "dumbr",
+    "name": "Dumbr",
+    "icon": "img/statuses/dumbr.png",
+    "description": ""
+  },
+  "earthaligned": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "earthaligned",
+    "name": "Earth Aligned",
+    "icon": "img/statuses/earth_aligned.png",
+    "description": ""
+  },
+  "earthblight": {
+    "seen_in": [
+      "immunities",
+      "statuses"
+    ],
+    "id": "earthblight",
+    "name": "Earthblight",
+    "icon": "img/statuses/earth_rune.png",
+    "description": ""
+  },
+  "earthfacade": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "earthfacade",
+    "name": "T. Earth Immune",
+    "icon": "img/statuses/earth_wall.png",
+    "description": ""
+  },
+  "earthfacadeii": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "earthfacadeii",
+    "name": "T. Earth Immune ↑↑",
+    "icon": "img/statuses/earth_wall.png",
+    "description": ""
+  },
+  "earthimbue": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "earthimbue",
+    "name": "Earth Att",
+    "icon": "img/statuses/earth_imbue.png",
+    "description": ""
+  },
+  "earthrune": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "earthrune",
+    "name": "Earth Sigil",
+    "icon": "img/statuses/earth_rune.png",
+    "description": ""
+  },
+  "earthwall": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "earthwall",
+    "name": "Earth Def",
+    "icon": "img/statuses/earth_wall.png",
+    "description": ""
+  },
+  "eistlastance": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "eistlastance",
+    "name": "Eistla",
+    "icon": "img/statuses/eistla.png",
+    "description": ""
+  },
+  "eosrune": {
+    "seen_in": [
+      "immunities",
+      "statuses"
+    ],
+    "id": "eosrune",
+    "name": "Eos",
+    "icon": "img/statuses/rune_eos.png",
+    "description": ""
+  },
+  "firealigned": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "firealigned",
+    "name": "Fire Aligned",
+    "icon": "img/statuses/fire_aligned.png",
+    "description": ""
+  },
+  "fireblight": {
+    "seen_in": [
+      "immunities",
+      "statuses"
+    ],
+    "id": "fireblight",
+    "name": "Fireblight",
+    "icon": "img/statuses/fire_rune.png",
+    "description": ""
+  },
+  "firefacade": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "firefacade",
+    "name": "T. Fire Immune",
+    "icon": "img/statuses/fire_wall.png",
+    "description": ""
+  },
+  "firefacadeii": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "firefacadeii",
+    "name": "T. Fire Immune ↑↑",
+    "icon": "img/statuses/fire_wall.png",
+    "description": ""
+  },
+  "fireimbue": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "fireimbue",
+    "name": "Fire Att",
+    "icon": "img/statuses/fire_imbue.png",
+    "description": ""
+  },
+  "firerune": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "firerune",
+    "name": "Fire Sigil",
+    "icon": "img/statuses/fire_rune.png",
+    "description": ""
+  },
+  "firewall": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "firewall",
+    "name": "Fire Def",
+    "icon": "img/statuses/fire_wall.png",
+    "description": ""
+  },
+  "foresightdown": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "foresightdown",
+    "name": "Foresight ↓",
+    "icon": "img/statuses/foresight_down.png",
+    "description": ""
+  },
+  "foresightup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "foresightup",
+    "name": "Foresight ↑",
+    "icon": "img/statuses/foresight_up.png",
+    "description": ""
+  },
+  "frenzy": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "frenzy",
+    "name": "Frenzy",
+    "icon": "img/statuses/frenzy.png",
+    "description": ""
+  },
+  "frog": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "frog",
+    "name": "Frog",
+    "icon": "img/monsters/frog.png",
+    "description": "When afflicted with this curse, Ward is disabled."
+  },
+  "frozen": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "frozen",
+    "name": "Frozen",
+    "icon": "img/statuses/frozen.png",
+    "description": "When frozen in combat, one may temporarily be unable to act on their turn."
+  },
+  "greaves1": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "greaves1",
+    "name": "Iron Greaves",
+    "icon": "img/statuses/greaves1.png",
+    "description": ""
+  },
+  "greaves2": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "greaves2",
+    "name": "Mythril Greaves",
+    "icon": "img/statuses/greaves2.png",
+    "description": ""
+  },
+  "greaves3": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "greaves3",
+    "name": "Spiked Greaves",
+    "icon": "img/statuses/greaves3.png",
+    "description": ""
+  },
+  "gymirstance": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "gymirstance",
+    "name": "Gymir",
+    "icon": "img/statuses/gymir.png",
+    "description": ""
+  },
+  "holyaligned": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "holyaligned",
+    "name": "Holy Aligned",
+    "icon": "img/statuses/holy_aligned.png",
+    "description": ""
+  },
+  "holyblight": {
+    "seen_in": [
+      "immunities",
+      "statuses"
+    ],
+    "id": "holyblight",
+    "name": "Holyblight",
+    "icon": "img/statuses/holy_rune.png",
+    "description": ""
+  },
+  "holyfacade": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "holyfacade",
+    "name": "T. Holy Immune",
+    "icon": "img/statuses/holy_wall.png",
+    "description": ""
+  },
+  "holyfacadeii": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "holyfacadeii",
+    "name": "T. Holy Immune ↑↑",
+    "icon": "img/statuses/holy_wall.png",
+    "description": ""
+  },
+  "holyrune": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "holyrune",
+    "name": "Holy Sigil",
+    "icon": "img/statuses/holy_rune.png",
+    "description": ""
+  },
+  "holywall": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "holywall",
+    "name": "Holy Def",
+    "icon": "img/statuses/holy_wall.png",
+    "description": ""
+  },
+  "hugeberserk": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "hugeberserk",
+    "name": "All ↑↑",
+    "icon": "img/statuses/berserk_triple.png",
+    "description": ""
+  },
+  "icealigned": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "icealigned",
+    "name": "Water Aligned",
+    "icon": "img/statuses/ice_aligned.png",
+    "description": ""
+  },
+  "iceblight": {
+    "seen_in": [
+      "immunities",
+      "statuses"
+    ],
+    "id": "iceblight",
+    "name": "Waterblight",
+    "icon": "img/statuses/ice_rune.png",
+    "description": ""
+  },
+  "icefacade": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "icefacade",
+    "name": "T. Water Immune",
+    "icon": "img/statuses/ice_wall.png",
+    "description": ""
+  },
+  "icefacadeii": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "icefacadeii",
+    "name": "T. Water Immune ↑↑",
+    "icon": "img/statuses/ice_wall.png",
+    "description": ""
+  },
+  "iceimbue": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "iceimbue",
+    "name": "Water Att",
+    "icon": "img/statuses/ice_imbue.png",
+    "description": ""
+  },
+  "icerune": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "icerune",
+    "name": "Water Sigil",
+    "icon": "img/statuses/ice_rune.png",
+    "description": ""
+  },
+  "icewall": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "icewall",
+    "name": "Water Def",
+    "icon": "img/statuses/ice_wall.png",
+    "description": ""
+  },
+  "idun": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "idun",
+    "name": "Idun ↑↑",
+    "icon": "img/statuses/idun.png",
+    "description": ""
+  },
+  "idunii": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "idunii",
+    "name": "Idun ↑↑↑",
+    "icon": "img/statuses/idun.png",
+    "description": ""
+  },
+  "jord": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "jord",
+    "name": "Jord ↑↑",
+    "icon": "img/statuses/jord.png",
+    "description": ""
+  },
+  "jordii": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "jordii",
+    "name": "Jord ↑↑↑",
+    "icon": "img/statuses/jord.png",
+    "description": ""
+  },
+  "lesserbrynhild": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "lesserbrynhild",
+    "name": "Brynhild ↑",
+    "icon": "img/statuses/brynhild.png",
+    "description": ""
+  },
+  "lesseridun": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "lesseridun",
+    "name": "Idun ↑",
+    "icon": "img/statuses/idun.png",
+    "description": ""
+  },
+  "lesserjord": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "lesserjord",
+    "name": "Jord ↑",
+    "icon": "img/statuses/jord.png",
+    "description": ""
+  },
+  "lesserskadi": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "lesserskadi",
+    "name": "Skadi ↑",
+    "icon": "img/statuses/skadi.png",
+    "description": ""
+  },
+  "lightningaligned": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "lightningaligned",
+    "name": "Lightning Aligned",
+    "icon": "img/statuses/lightning_aligned.png",
+    "description": ""
+  },
+  "lightningblight": {
+    "seen_in": [
+      "immunities",
+      "statuses"
+    ],
+    "id": "lightningblight",
+    "name": "Lightningblight",
+    "icon": "img/statuses/lightning_rune.png",
+    "description": ""
+  },
+  "lightningfacade": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "lightningfacade",
+    "name": "T. Lightning Immune",
+    "icon": "img/statuses/lightning_wall.png",
+    "description": ""
+  },
+  "lightningfacadeii": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "lightningfacadeii",
+    "name": "T. Lightning Immune ↑↑",
+    "icon": "img/statuses/lightning_wall.png",
+    "description": ""
+  },
+  "lightningimbue": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "lightningimbue",
+    "name": "Lightning Att",
+    "icon": "img/statuses/lightning_imbue.png",
+    "description": ""
+  },
+  "lightningrune": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "lightningrune",
+    "name": "Lightning Sigil",
+    "icon": "img/statuses/lightning_rune.png",
+    "description": ""
+  },
+  "lightningwall": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "lightningwall",
+    "name": "Lightning Def",
+    "icon": "img/statuses/lightning_wall.png",
+    "description": ""
+  },
+  "lulled": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "lulled",
+    "name": "Lulled",
+    "icon": "img/statuses/lulled.png",
+    "description": "When lulled in combat, one may be too enamored to attack their opponent."
+  },
+  "lyonmark": {
+    "seen_in": [
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "lyonmark",
+    "name": "Lyon's Mark",
+    "icon": "img/statuses/lyon.png",
+    "description": ""
+  },
+  "lyrarune": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "lyrarune",
+    "name": "Lyra Sigil",
+    "icon": "img/effects/lyra.png",
+    "description": ""
+  },
+  "magicdefensedown": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "magicdefensedown",
+    "name": "Res ↓",
+    "icon": "img/statuses/magic_defense_down.png",
+    "description": ""
+  },
+  "magicdefensegait": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "magicdefensegait",
+    "name": "Eir",
+    "icon": "img/statuses/eir.png",
+    "description": ""
+  },
+  "magicdefenseup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "magicdefenseup",
+    "name": "Res ↑",
+    "icon": "img/statuses/magic_defense_up.png",
+    "description": ""
+  },
+  "magicdown": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "magicdown",
+    "name": "Mag ↓",
+    "icon": "img/statuses/magic_down.png",
+    "description": ""
+  },
+  "magicgait": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "magicgait",
+    "name": "Snotra",
+    "icon": "img/statuses/snotra.png",
+    "description": ""
+  },
+  "magicup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "magicup",
+    "name": "Mag ↑",
+    "icon": "img/statuses/magic_up.png",
+    "description": ""
+  },
+  "manaseep": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "manaseep",
+    "name": "Manaseep",
+    "icon": "img/statuses/manaseep.png",
+    "description": ""
+  },
+  "morriganscurse": {
+    "seen_in": [
+      "immunities",
+      "statuses"
+    ],
+    "id": "morriganscurse",
+    "name": "Morrigan's Curse",
+    "icon": "img/statuses/morrigans_curse.png",
+    "description": "When afflicted with this curse, one may become a monster after 3 turns."
+  },
+  "noimbue": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "noimbue",
+    "name": "Elementless",
+    "icon": "img/statuses/no_imbue.png",
+    "description": ""
+  },
+  "oceanusrune": {
+    "seen_in": [
+      "immunities",
+      "statuses"
+    ],
+    "id": "oceanusrune",
+    "name": "Oceanus",
+    "icon": "img/statuses/rune_oceanus.png",
+    "description": ""
+  },
+  "offgait": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "offgait",
+    "name": "Thrud",
+    "icon": "img/statuses/thrud.png",
+    "description": ""
+  },
+  "ophionstance": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "ophionstance",
+    "name": "Ophion of Olympia",
+    "icon": "img/statuses/ophion.png",
+    "description": ""
+  },
+  "paralyzed": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "paralyzed",
+    "name": "Paralyzed",
+    "icon": "img/statuses/paralyzed.png",
+    "description": "When paralyzed in combat, one may seldomly be unable to act on their turn."
+  },
+  "pauldrons1": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "pauldrons1",
+    "name": "Iron Pauldrons",
+    "icon": "img/statuses/pauldrons1.png",
+    "description": ""
+  },
+  "pauldrons2": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "pauldrons2",
+    "name": "Mythril Pauldrons",
+    "icon": "img/statuses/pauldrons2.png",
+    "description": ""
+  },
+  "pauldrons3": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "pauldrons3",
+    "name": "Spiked Pauldrons",
+    "icon": "img/statuses/pauldrons3.png",
+    "description": ""
+  },
+  "petrified": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "petrified",
+    "name": "Petrified",
+    "icon": "img/statuses/petrified.png",
+    "description": "When petrified in combat, one is unable to act on their turn."
+  },
+  "phoenixpledge": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "phoenixpledge",
+    "name": "Phoenix's Pledge",
+    "icon": "img/statuses/phoenix.png",
+    "description": ""
+  },
+  "poisoned": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "poisoned",
+    "name": "Poisoned",
+    "icon": "img/statuses/poison.png",
+    "description": "When afflicted with poison in combat, one takes damage on every turn."
+  },
+  "polluxfirst": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "polluxfirst",
+    "name": "Pollux",
+    "icon": "img/bosses/pollux.png",
+    "description": ""
+  },
+  "powereos": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "powereos",
+    "name": "Power of Titan Eos",
+    "icon": "img/statuses/rune_eos.png",
+    "description": ""
+  },
+  "powerofoceanus": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "powerofoceanus",
+    "name": "Power of Titan Oceanus",
+    "icon": "img/statuses/rune_oceanus.png",
+    "description": ""
+  },
+  "powerofprometheus": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "powerofprometheus",
+    "name": "Power of Titan Prometheus",
+    "icon": "img/statuses/rune_prometheus.png",
+    "description": ""
+  },
+  "powerofselene": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "powerofselene",
+    "name": "Power of Titan Selene",
+    "icon": "img/statuses/rune_selene.png",
+    "description": ""
+  },
+  "powerofthemis": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "powerofthemis",
+    "name": "Power of Titan Themis",
+    "icon": "img/statuses/rune_themis.png",
+    "description": ""
+  },
+  "promrune": {
+    "seen_in": [
+      "immunities",
+      "statuses"
+    ],
+    "id": "promrune",
+    "name": "Prometheus",
+    "icon": "img/statuses/rune_prometheus.png",
+    "description": ""
+  },
+  "provoke": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "provoke",
+    "name": "T. Target ↑",
+    "icon": "img/statuses/provoke.png",
+    "description": ""
+  },
+  "puzzlemakersambrosia": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "puzzlemakersambrosia",
+    "name": "Puzzlemaker's Ambrosia",
+    "icon": "img/useables/puzzlemakersambrosia.png",
+    "description": ""
+  },
+  "rand": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "rand",
+    "name": "Rand ↑↑",
+    "icon": "img/statuses/rand.png",
+    "description": ""
+  },
+  "reraise": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "reraise",
+    "name": "Reraise",
+    "icon": "img/statuses/holy_imbue.png",
+    "description": ""
+  },
+  "rotted": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "rotted",
+    "name": "Rot",
+    "icon": "img/statuses/rot.png",
+    "description": "When afflicted with rot in combat, one takes damage on every turn and has their magical and physical defense stats lowered."
+  },
+  "selenerune": {
+    "seen_in": [
+      "immunities",
+      "statuses"
+    ],
+    "id": "selenerune",
+    "name": "Selene",
+    "icon": "img/statuses/rune_selene.png",
+    "description": ""
+  },
+  "shadowveil": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "shadowveil",
+    "name": "Shadowveil",
+    "icon": "img/statuses/shadowveil.png",
+    "description": ""
+  },
+  "skadi": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "skadi",
+    "name": "Skadi ↑↑",
+    "icon": "img/statuses/skadi.png",
+    "description": ""
+  },
+  "skadiii": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "skadiii",
+    "name": "Skadi ↑↑↑",
+    "icon": "img/statuses/skadi.png",
+    "description": ""
+  },
+  "starstruck": {
+    "seen_in": [
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "starstruck",
+    "name": "Starstruck",
+    "icon": "img/statuses/starstruck.png",
+    "description": "When starstruck, one will take considerable damage if they do not heal after a countdown."
+  },
+  "stasis": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "stasis",
+    "name": "Stasis",
+    "icon": "img/statuses/stasis.png",
+    "description": "When frozen in time, one is unable to act on their turn."
+  },
+  "stunned": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "stunned",
+    "name": "Stunned",
+    "icon": "img/statuses/stunned.png",
+    "description": "When stunned in combat, one may not be able to act on their turn."
+  },
+  "targetall": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "targetall",
+    "name": "Target: All",
+    "icon": "img/statuses/target_up.png",
+    "description": ""
+  },
+  "tempallup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "tempallup",
+    "name": "T. All ↑",
+    "icon": "img/statuses/channel.png",
+    "description": ""
+  },
+  "tempallup2": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "tempallup2",
+    "name": "T. All ↑↑",
+    "icon": "img/statuses/channel.png",
+    "description": ""
+  },
+  "tempattackdown": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "tempattackdown",
+    "name": "T. Att ↓",
+    "icon": "img/statuses/attack_down_temp.png",
+    "description": ""
+  },
+  "tempattackup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "tempattackup",
+    "name": "T. Att ↑",
+    "icon": "img/statuses/attack_up_temp.png",
+    "description": ""
+  },
+  "tempbigattackdown": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "tempbigattackdown",
+    "name": "T. Att ↓↓",
+    "icon": "img/statuses/attack_down_double_temp.png",
+    "description": ""
+  },
+  "tempbigattackup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "tempbigattackup",
+    "name": "T. Att ↑↑",
+    "icon": "img/statuses/attack_up_double_temp.png",
+    "description": ""
+  },
+  "tempbigcritup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "tempbigcritup",
+    "name": "T. Crit ↑↑",
+    "icon": "img/statuses/crit_up_double_temp.png",
+    "description": ""
+  },
+  "tempbigdefdown": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "tempbigdefdown",
+    "name": "T. Def ↓↓",
+    "icon": "img/statuses/defense_down_double_temp.png",
+    "description": ""
+  },
+  "tempbigdefenseup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "tempbigdefenseup",
+    "name": "T. Def ↑↑",
+    "icon": "img/statuses/defense_up_double_temp.png",
+    "description": ""
+  },
+  "tempbigdexup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "tempbigdexup",
+    "name": "T. Dex ↑↑",
+    "icon": "img/statuses/dex_up_double_temp.png",
+    "description": ""
+  },
+  "tempbigmagdefdown": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "tempbigmagdefdown",
+    "name": "T. Res ↓↓",
+    "icon": "img/statuses/magic_defense_down_double_temp.png",
+    "description": ""
+  },
+  "tempbigmagicdefenseup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "tempbigmagicdefenseup",
+    "name": "T. Res ↑↑",
+    "icon": "img/statuses/magic_defense_up_double_temp.png",
+    "description": ""
+  },
+  "tempbigmagicdown": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "tempbigmagicdown",
+    "name": "T. Mag ↓↓",
+    "icon": "img/statuses/magic_down_double_temp.png",
+    "description": ""
+  },
+  "tempbigmagicup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "tempbigmagicup",
+    "name": "T. Mag ↑↑",
+    "icon": "img/statuses/magic_up_double_temp.png",
+    "description": ""
+  },
+  "tempcritup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "tempcritup",
+    "name": "T. Crit ↑",
+    "icon": "img/statuses/crit_up_temp.png",
+    "description": ""
+  },
+  "tempdefensedown": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "tempdefensedown",
+    "name": "T. Def ↓",
+    "icon": "img/statuses/defense_down_temp.png",
+    "description": ""
+  },
+  "tempdefenseup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "tempdefenseup",
+    "name": "T. Def ↑",
+    "icon": "img/statuses/defense_up_temp.png",
+    "description": ""
+  },
+  "tempdexup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "tempdexup",
+    "name": "T. Dex ↑",
+    "icon": "img/statuses/dex_up_temp.png",
+    "description": ""
+  },
+  "tempered": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "tempered",
+    "name": "Tempered ↓",
+    "icon": "img/statuses/tempered.png",
+    "description": ""
+  },
+  "temphudemagicdefenseup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "temphudemagicdefenseup",
+    "name": "T. Res ↑↑↑",
+    "icon": "img/statuses/magic_defense_up_triple_temp.png",
+    "description": ""
+  },
+  "temphugeattackdown": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "temphugeattackdown",
+    "name": "T. Att ↓↓↓",
+    "icon": "img/statuses/attack_down_triple_temp.png",
+    "description": ""
+  },
+  "temphugeattackup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "temphugeattackup",
+    "name": "T. Att ↑↑↑",
+    "icon": "img/statuses/attack_up_triple_temp.png",
+    "description": ""
+  },
+  "temphugecritup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "temphugecritup",
+    "name": "T. Crit ↑↑↑",
+    "icon": "img/statuses/crit_up_triple_temp.png",
+    "description": ""
+  },
+  "temphugedefdown": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "temphugedefdown",
+    "name": "T. Def ↓↓↓",
+    "icon": "img/statuses/defense_down_triple_temp.png",
+    "description": ""
+  },
+  "temphugedefenseup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "temphugedefenseup",
+    "name": "T. Def ↑↑↑",
+    "icon": "img/statuses/defense_up_triple_temp.png",
+    "description": ""
+  },
+  "temphugedexup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "temphugedexup",
+    "name": "T. Dex ↑↑↑",
+    "icon": "img/statuses/dex_up_triple_temp.png",
+    "description": ""
+  },
+  "temphugemagdefdown": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "temphugemagdefdown",
+    "name": "T. Res ↓↓↓",
+    "icon": "img/statuses/magic_defense_down_triple_temp.png",
+    "description": ""
+  },
+  "temphugemagicdown": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "temphugemagicdown",
+    "name": "T. Mag ↓↓↓",
+    "icon": "img/statuses/magic_down_triple_temp.png",
+    "description": ""
+  },
+  "temphugemagicup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "temphugemagicup",
+    "name": "T. Mag ↑↑↑",
+    "icon": "img/statuses/magic_up_triple_temp.png",
+    "description": ""
+  },
+  "tempmagicdefensedown": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "tempmagicdefensedown",
+    "name": "T. Res ↓",
+    "icon": "img/statuses/magic_defense_down_temp.png",
+    "description": ""
+  },
+  "tempmagicdefenseup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "tempmagicdefenseup",
+    "name": "T. Res ↑",
+    "icon": "img/statuses/magic_defense_up_temp.png",
+    "description": ""
+  },
+  "tempmagicdown": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "tempmagicdown",
+    "name": "T. Mag ↓",
+    "icon": "img/statuses/magic_down_temp.png",
+    "description": ""
+  },
+  "tempmagicup": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "tempmagicup",
+    "name": "T. Mag ↑",
+    "icon": "img/statuses/magic_up_temp.png",
+    "description": ""
+  },
+  "themisrune": {
+    "seen_in": [
+      "immunities",
+      "statuses"
+    ],
+    "id": "themisrune",
+    "name": "Themis",
+    "icon": "img/statuses/rune_themis.png",
+    "description": ""
+  },
+  "towering": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "towering",
+    "name": "Towering",
+    "icon": "img/statuses/tower.png",
+    "description": ""
+  },
+  "toxic": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "toxic",
+    "name": "Toxic",
+    "icon": "img/statuses/toxic.png",
+    "description": "When afflicted with toxic in combat, one takes moderate damage on every turn."
+  },
+  "treeofdemise": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "treeofdemise",
+    "name": "Tree of Demise",
+    "icon": "img/statuses/dark_imbue.png",
+    "description": ""
+  },
+  "treeoflife": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "treeoflife",
+    "name": "Tree of Life",
+    "icon": "img/statuses/holy_imbue.png",
+    "description": ""
+  },
+  "unstablechanneled": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "unstablechanneled",
+    "name": "T. ? ↑↑↑",
+    "icon": "img/statuses/channel.png",
+    "description": ""
+  },
+  "windaligned": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "windaligned",
+    "name": "Wind Aligned",
+    "icon": "img/statuses/wind_aligned.png",
+    "description": ""
+  },
+  "windblight": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "windblight",
+    "name": "Windblight",
+    "icon": "img/statuses/wind_rune.png",
+    "description": ""
+  },
+  "windrune": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "windrune",
+    "name": "Wind Sigil",
+    "icon": "img/statuses/wind_rune.png",
+    "description": ""
+  },
+  "windswept": {
+    "seen_in": [
+      "immunities",
+      "status_immunities",
+      "statuses"
+    ],
+    "id": "windswept",
+    "name": "Windswept",
+    "icon": "img/statuses/windswept.png",
+    "description": "When windswept in combat, one has their ability to perform a critical hit greatly decreased."
+  },
+  "zagreus": {
+    "seen_in": [
+      "statuses"
+    ],
+    "id": "zagreus",
+    "name": "Zagreus",
+    "icon": "img/statuses/zagreus.png",
+    "description": ""
+  }
+}

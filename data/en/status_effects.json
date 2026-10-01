@@ -1,0 +1,4494 @@
+[
+  {
+    "id": "aegirstance",
+    "name": "Aegir",
+    "description": "",
+    "icon": "img/statuses/aegir.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "-90%"
+      },
+      {
+        "label": "Magic",
+        "value": "-30%"
+      },
+      {
+        "label": "Defense",
+        "value": "+120%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+120%"
+      }
+    ]
+  },
+  {
+    "id": "bigberserk",
+    "name": "All ↑",
+    "description": "",
+    "icon": "img/statuses/berserk_double.png",
+    "tier": 1,
+    "group": 3,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "10%"
+      },
+      {
+        "label": "Attack",
+        "value": "+25%"
+      },
+      {
+        "label": "Magic",
+        "value": "+25%"
+      },
+      {
+        "label": "Defense",
+        "value": "+25%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+25%"
+      }
+    ]
+  },
+  {
+    "id": "hugeberserk",
+    "name": "All ↑↑",
+    "description": "",
+    "icon": "img/statuses/berserk_triple.png",
+    "tier": 1,
+    "group": 3,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "25%"
+      },
+      {
+        "label": "Attack",
+        "value": "+50%"
+      },
+      {
+        "label": "Magic",
+        "value": "+50%"
+      },
+      {
+        "label": "Defense",
+        "value": "+50%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+50%"
+      }
+    ]
+  },
+  {
+    "id": "aquilarune",
+    "name": "Aquila Sigil",
+    "description": "",
+    "icon": "img/effects/aquila.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "15%"
+      }
+    ]
+  },
+  {
+    "id": "arcanealigned",
+    "name": "Arcane Aligned",
+    "description": "",
+    "icon": "img/statuses/arcane_aligned.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": "arcane",
+    "effects": []
+  },
+  {
+    "id": "arcaneboosted",
+    "name": "Arcane ↑↑",
+    "description": "",
+    "icon": "img/statuses/arcane_imbue.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      }
+    ]
+  },
+  {
+    "id": "asleep",
+    "name": "Asleep",
+    "description": "When asleep in combat, one is unable to act on their turn. However, they will wake upon receiving damage.",
+    "icon": "img/statuses/sleep.png",
+    "tier": 1,
+    "group": 0,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Miss turn chance",
+        "value": "100%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Dodging",
+        "value": "Blocked"
+      }
+    ]
+  },
+  {
+    "id": "asteriastance",
+    "name": "Asteria of Olympia",
+    "description": "",
+    "icon": "img/statuses/asteria.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Mana burn per turn",
+        "value": "5%"
+      },
+      {
+        "label": "Magic",
+        "value": "+30%"
+      },
+      {
+        "label": "Defense",
+        "value": "-50%"
+      },
+      {
+        "label": "Resistance",
+        "value": "-50%"
+      }
+    ]
+  },
+  {
+    "id": "atlasstance",
+    "name": "Atlas of Olympia",
+    "description": "",
+    "icon": "img/statuses/atlas.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "attackup",
+    "name": "Att ↑",
+    "description": "",
+    "icon": "img/statuses/attack_up.png",
+    "tier": 1,
+    "group": 3,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "+25%"
+      }
+    ]
+  },
+  {
+    "id": "bigattackup",
+    "name": "Att ↑↑",
+    "description": "",
+    "icon": "img/statuses/attack_up_double.png",
+    "tier": 1,
+    "group": 3,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "+50%"
+      }
+    ]
+  },
+  {
+    "id": "attackdown",
+    "name": "Att ↓",
+    "description": "",
+    "icon": "img/statuses/attack_down.png",
+    "tier": 1,
+    "group": 3,
+    "listed": false,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "-20%"
+      }
+    ]
+  },
+  {
+    "id": "bleeding",
+    "name": "Bleeding",
+    "description": "When bleeding in combat, one is less likely to deal a critical hit and takes damage on every turn.",
+    "icon": "img/statuses/bleeding.png",
+    "tier": 1,
+    "group": 1,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "2%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Crit",
+        "value": "-3%"
+      }
+    ]
+  },
+  {
+    "id": "blinded",
+    "name": "Blind",
+    "description": "When blinded in combat, one is more likely to miss their attacks against an opponent.",
+    "icon": "img/statuses/blind.png",
+    "tier": 1,
+    "group": 0,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Miss chance",
+        "value": "50%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Dexterity",
+        "value": "-90%"
+      }
+    ]
+  },
+  {
+    "id": "brittle",
+    "name": "Brittle",
+    "description": "",
+    "icon": "img/statuses/break.png",
+    "tier": 1,
+    "group": 4,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "3%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "5%"
+      },
+      {
+        "label": "Attack",
+        "value": "+10%"
+      },
+      {
+        "label": "Magic",
+        "value": "+10%"
+      },
+      {
+        "label": "Defense",
+        "value": "-95%"
+      },
+      {
+        "label": "Dexterity",
+        "value": "-40%"
+      },
+      {
+        "label": "Crit",
+        "value": "+5%"
+      }
+    ]
+  },
+  {
+    "id": "lesserbrynhild",
+    "name": "Brynhild ↑",
+    "description": "",
+    "icon": "img/statuses/brynhild.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "brynhild",
+    "name": "Brynhild ↑↑",
+    "description": "",
+    "icon": "img/statuses/brynhild.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "brynhildii",
+    "name": "Brynhild ↑↑↑",
+    "description": "",
+    "icon": "img/statuses/brynhild.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "burning",
+    "name": "Burning",
+    "description": "When burning in combat, one takes damage on every turn and has their attack and magic stats lowered.",
+    "icon": "img/statuses/burning.png",
+    "tier": 1,
+    "group": 1,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "5%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      },
+      {
+        "label": "Attack",
+        "value": "-20%"
+      },
+      {
+        "label": "Magic",
+        "value": "-20%"
+      }
+    ]
+  },
+  {
+    "id": "carinarune",
+    "name": "Carina Sigil",
+    "description": "",
+    "icon": "img/effects/carina.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "15%"
+      }
+    ]
+  },
+  {
+    "id": "castorfirst",
+    "name": "Castor",
+    "description": "",
+    "icon": "img/bosses/castor.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "holy",
+    "immune_element": "fire",
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      },
+      {
+        "label": "Attack",
+        "value": "-50%"
+      },
+      {
+        "label": "Magic",
+        "value": "+100%"
+      },
+      {
+        "label": "Defense",
+        "value": "-50%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+100%"
+      }
+    ]
+  },
+  {
+    "id": "critup",
+    "name": "Crit ↑",
+    "description": "",
+    "icon": "img/statuses/crit_up.png",
+    "tier": 1,
+    "group": 3,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Crit",
+        "value": "+20%"
+      }
+    ]
+  },
+  {
+    "id": "cruxrune",
+    "name": "Crux Sigil",
+    "description": "",
+    "icon": "img/effects/crux.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "30%"
+      }
+    ]
+  },
+  {
+    "id": "cursed",
+    "name": "Cursed",
+    "description": "When cursed in combat, one takes moderate damage on every turn.",
+    "icon": "img/statuses/cursed.png",
+    "tier": 1,
+    "group": 1,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "darkaligned",
+    "name": "Dark Aligned",
+    "description": "",
+    "icon": "img/statuses/dark_aligned.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": "dark",
+    "effects": []
+  },
+  {
+    "id": "darkwall",
+    "name": "Dark Def",
+    "description": "",
+    "icon": "img/statuses/dark_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "darkrune",
+    "name": "Dark Sigil",
+    "description": "",
+    "icon": "img/statuses/dark_rune.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      }
+    ]
+  },
+  {
+    "id": "darkblight",
+    "name": "Darkblight",
+    "description": "",
+    "icon": "img/statuses/dark_rune.png",
+    "tier": 1,
+    "group": 1,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "dark",
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "darkveil",
+    "name": "Darkveil",
+    "description": "",
+    "icon": "img/statuses/shadowveil.png",
+    "tier": 1,
+    "group": 3,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Current HP damage per turn",
+        "value": "50%"
+      },
+      {
+        "label": "Ward burn per turn",
+        "value": "20%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "100%"
+      },
+      {
+        "label": "Attack",
+        "value": "+40%"
+      },
+      {
+        "label": "Dexterity",
+        "value": "+100%"
+      }
+    ]
+  },
+  {
+    "id": "defenseup",
+    "name": "Def ↑",
+    "description": "",
+    "icon": "img/statuses/defense_up.png",
+    "tier": 1,
+    "group": 4,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Defense",
+        "value": "+25%"
+      }
+    ]
+  },
+  {
+    "id": "bigdefenseup",
+    "name": "Def ↑↑",
+    "description": "",
+    "icon": "img/statuses/defense_up_double.png",
+    "tier": 1,
+    "group": 4,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Defense",
+        "value": "+50%"
+      }
+    ]
+  },
+  {
+    "id": "defensedown",
+    "name": "Def ↓",
+    "description": "",
+    "icon": "img/statuses/defense_down.png",
+    "tier": 1,
+    "group": 4,
+    "listed": false,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Defense",
+        "value": "-20%"
+      }
+    ]
+  },
+  {
+    "id": "bigdefensedown",
+    "name": "Def ↓↓",
+    "description": "",
+    "icon": "img/statuses/defense_down_double.png",
+    "tier": 1,
+    "group": 4,
+    "listed": false,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Defense",
+        "value": "-80%"
+      }
+    ]
+  },
+  {
+    "id": "defending",
+    "name": "Defending",
+    "description": "",
+    "icon": "img/statuses/defense_up.png",
+    "tier": 1,
+    "group": 0,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "100%"
+      }
+    ]
+  },
+  {
+    "id": "cerusdefenseup",
+    "name": "Defending",
+    "description": "",
+    "icon": "img/statuses/defense_up_triple.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Defense",
+        "value": "+900%"
+      },
+      {
+        "label": "Resistance",
+        "value": "-90%"
+      }
+    ]
+  },
+  {
+    "id": "cerusreseup",
+    "name": "Defending",
+    "description": "",
+    "icon": "img/statuses/magic_defense_up_triple.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Defense",
+        "value": "-90%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+900%"
+      }
+    ]
+  },
+  {
+    "id": "dexup",
+    "name": "Dex ↑",
+    "description": "",
+    "icon": "img/statuses/dex_up.png",
+    "tier": 1,
+    "group": 4,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Dexterity",
+        "value": "+400%"
+      }
+    ]
+  },
+  {
+    "id": "berserk",
+    "name": "Dmg ↑",
+    "description": "",
+    "icon": "img/statuses/berserk.png",
+    "tier": 1,
+    "group": 3,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "5%"
+      },
+      {
+        "label": "Attack",
+        "value": "+50%"
+      },
+      {
+        "label": "Magic",
+        "value": "+50%"
+      }
+    ]
+  },
+  {
+    "id": "dracorune",
+    "name": "Draco Sigil",
+    "description": "",
+    "icon": "img/effects/draco.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      }
+    ]
+  },
+  {
+    "id": "dragonaligned",
+    "name": "Dragon Aligned",
+    "description": "",
+    "icon": "img/statuses/dragon_aligned.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": "dragon",
+    "effects": []
+  },
+  {
+    "id": "dragonrune",
+    "name": "Dragon Sigil",
+    "description": "",
+    "icon": "img/statuses/dragon_rune.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      }
+    ]
+  },
+  {
+    "id": "dragonboosted",
+    "name": "Dragon ↑↑",
+    "description": "",
+    "icon": "img/statuses/dragon_imbue.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      }
+    ]
+  },
+  {
+    "id": "dragonblight",
+    "name": "Drakeblight",
+    "description": "",
+    "icon": "img/statuses/dragon_rune.png",
+    "tier": 1,
+    "group": 1,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "dragon",
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "1%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "3%"
+      }
+    ]
+  },
+  {
+    "id": "drenched",
+    "name": "Drenched",
+    "description": "When drenched in combat, one may slip and fall.",
+    "icon": "img/statuses/drenched.png",
+    "tier": 1,
+    "group": 0,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Miss turn chance",
+        "value": "1%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "5%"
+      }
+    ]
+  },
+  {
+    "id": "dumbr",
+    "name": "Dumbr",
+    "description": "",
+    "icon": "img/statuses/dumbr.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "earthaligned",
+    "name": "Earth Aligned",
+    "description": "",
+    "icon": "img/statuses/earth_aligned.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "fire",
+    "immune_element": "earthen",
+    "effects": []
+  },
+  {
+    "id": "earthimbue",
+    "name": "Earth Att",
+    "description": "",
+    "icon": "img/statuses/earth_imbue.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "earthwall",
+    "name": "Earth Def",
+    "description": "",
+    "icon": "img/statuses/earth_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "earthrune",
+    "name": "Earth Sigil",
+    "description": "",
+    "icon": "img/statuses/earth_rune.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      }
+    ]
+  },
+  {
+    "id": "earthblight",
+    "name": "Earthblight",
+    "description": "",
+    "icon": "img/statuses/earth_rune.png",
+    "tier": 1,
+    "group": 1,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "earthen",
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "magicdefensegait",
+    "name": "Eir",
+    "description": "",
+    "icon": "img/statuses/eir.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "-90%"
+      },
+      {
+        "label": "Defense",
+        "value": "-90%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+50%"
+      }
+    ]
+  },
+  {
+    "id": "eistlastance",
+    "name": "Eistla",
+    "description": "",
+    "icon": "img/statuses/eistla.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "+20%"
+      },
+      {
+        "label": "Magic",
+        "value": "+20%"
+      }
+    ]
+  },
+  {
+    "id": "noimbue",
+    "name": "Elementless",
+    "description": "",
+    "icon": "img/statuses/no_imbue.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "eosrune",
+    "name": "Eos",
+    "description": "",
+    "icon": "img/statuses/rune_eos.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Miss chance",
+        "value": "20%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Dexterity",
+        "value": "-90%"
+      }
+    ]
+  },
+  {
+    "id": "firealigned",
+    "name": "Fire Aligned",
+    "description": "",
+    "icon": "img/statuses/fire_aligned.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "water",
+    "immune_element": "fire",
+    "effects": []
+  },
+  {
+    "id": "fireimbue",
+    "name": "Fire Att",
+    "description": "",
+    "icon": "img/statuses/fire_imbue.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "firewall",
+    "name": "Fire Def",
+    "description": "",
+    "icon": "img/statuses/fire_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "firerune",
+    "name": "Fire Sigil",
+    "description": "",
+    "icon": "img/statuses/fire_rune.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      }
+    ]
+  },
+  {
+    "id": "fireblight",
+    "name": "Fireblight",
+    "description": "",
+    "icon": "img/statuses/fire_rune.png",
+    "tier": 1,
+    "group": 1,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "fire",
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "foresightup",
+    "name": "Foresight ↑",
+    "description": "",
+    "icon": "img/statuses/foresight_up.png",
+    "tier": 1,
+    "group": 4,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      },
+      {
+        "label": "Foresight",
+        "value": "+25%"
+      }
+    ]
+  },
+  {
+    "id": "bigforesightup",
+    "name": "Foresight ↑↑",
+    "description": "",
+    "icon": "img/statuses/foresight_up_double.png",
+    "tier": 1,
+    "group": 4,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      },
+      {
+        "label": "Foresight",
+        "value": "+50%"
+      }
+    ]
+  },
+  {
+    "id": "foresightdown",
+    "name": "Foresight ↓",
+    "description": "",
+    "icon": "img/statuses/foresight_down.png",
+    "tier": 1,
+    "group": 4,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      },
+      {
+        "label": "Foresight",
+        "value": "-25%"
+      }
+    ]
+  },
+  {
+    "id": "frenzy",
+    "name": "Frenzy",
+    "description": "",
+    "icon": "img/statuses/frenzy.png",
+    "tier": 1,
+    "group": 3,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "8%"
+      },
+      {
+        "label": "Ward burn per turn",
+        "value": "8%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "100%"
+      },
+      {
+        "label": "Attack",
+        "value": "+50%"
+      },
+      {
+        "label": "Dexterity",
+        "value": "+100%"
+      }
+    ]
+  },
+  {
+    "id": "frog",
+    "name": "Frog",
+    "description": "When afflicted with this curse, Ward is disabled.",
+    "icon": "img/monsters/frog.png",
+    "tier": 1,
+    "group": 1,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      },
+      {
+        "label": "Attack",
+        "value": "-10%"
+      },
+      {
+        "label": "Magic",
+        "value": "-10%"
+      },
+      {
+        "label": "Defense",
+        "value": "-10%"
+      },
+      {
+        "label": "Resistance",
+        "value": "-10%"
+      },
+      {
+        "label": "Dexterity",
+        "value": "-50%"
+      },
+      {
+        "label": "Ward",
+        "value": "Disabled"
+      }
+    ]
+  },
+  {
+    "id": "frozen",
+    "name": "Frozen",
+    "description": "When frozen in combat, one may temporarily be unable to act on their turn.",
+    "icon": "img/statuses/frozen.png",
+    "tier": 1,
+    "group": 0,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Miss turn chance",
+        "value": "30%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Dodging",
+        "value": "Blocked"
+      }
+    ]
+  },
+  {
+    "id": "attackgait",
+    "name": "Gunnr",
+    "description": "",
+    "icon": "img/statuses/gunnr.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "+50%"
+      },
+      {
+        "label": "Magic",
+        "value": "-90%"
+      },
+      {
+        "label": "Resistance",
+        "value": "-90%"
+      }
+    ]
+  },
+  {
+    "id": "gymirstance",
+    "name": "Gymir",
+    "description": "",
+    "icon": "img/statuses/gymir.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "+10%"
+      }
+    ]
+  },
+  {
+    "id": "defgait",
+    "name": "Hildr",
+    "description": "",
+    "icon": "img/statuses/hildr.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "-25%"
+      },
+      {
+        "label": "Magic",
+        "value": "-25%"
+      },
+      {
+        "label": "Defense",
+        "value": "+30%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+30%"
+      }
+    ]
+  },
+  {
+    "id": "holyaligned",
+    "name": "Holy Aligned",
+    "description": "",
+    "icon": "img/statuses/holy_aligned.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": "holy",
+    "effects": []
+  },
+  {
+    "id": "holywall",
+    "name": "Holy Def",
+    "description": "",
+    "icon": "img/statuses/holy_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "holyrune",
+    "name": "Holy Sigil",
+    "description": "",
+    "icon": "img/statuses/holy_rune.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      }
+    ]
+  },
+  {
+    "id": "holyblight",
+    "name": "Holyblight",
+    "description": "",
+    "icon": "img/statuses/holy_rune.png",
+    "tier": 1,
+    "group": 1,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "holy",
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "lesseridun",
+    "name": "Idun ↑",
+    "description": "",
+    "icon": "img/statuses/idun.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "idun",
+    "name": "Idun ↑↑",
+    "description": "",
+    "icon": "img/statuses/idun.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "idunii",
+    "name": "Idun ↑↑↑",
+    "description": "",
+    "icon": "img/statuses/idun.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "greaves1",
+    "name": "Iron Greaves",
+    "description": "",
+    "icon": "img/statuses/greaves1.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "-15%"
+      }
+    ]
+  },
+  {
+    "id": "pauldrons1",
+    "name": "Iron Pauldrons",
+    "description": "",
+    "icon": "img/statuses/pauldrons1.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Defense",
+        "value": "-25%"
+      },
+      {
+        "label": "Resistance",
+        "value": "-25%"
+      }
+    ]
+  },
+  {
+    "id": "lesserjord",
+    "name": "Jord ↑",
+    "description": "",
+    "icon": "img/statuses/jord.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "jord",
+    "name": "Jord ↑↑",
+    "description": "",
+    "icon": "img/statuses/jord.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "jordii",
+    "name": "Jord ↑↑↑",
+    "description": "",
+    "icon": "img/statuses/jord.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "defensegait",
+    "name": "Kára",
+    "description": "",
+    "icon": "img/statuses/kara.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Magic",
+        "value": "-90%"
+      },
+      {
+        "label": "Defense",
+        "value": "+50%"
+      },
+      {
+        "label": "Resistance",
+        "value": "-90%"
+      }
+    ]
+  },
+  {
+    "id": "lightningaligned",
+    "name": "Lightning Aligned",
+    "description": "",
+    "icon": "img/statuses/lightning_aligned.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "earthen",
+    "immune_element": "lightning",
+    "effects": []
+  },
+  {
+    "id": "lightningimbue",
+    "name": "Lightning Att",
+    "description": "",
+    "icon": "img/statuses/lightning_imbue.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "lightningwall",
+    "name": "Lightning Def",
+    "description": "",
+    "icon": "img/statuses/lightning_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "lightningrune",
+    "name": "Lightning Sigil",
+    "description": "",
+    "icon": "img/statuses/lightning_rune.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      }
+    ]
+  },
+  {
+    "id": "lightningblight",
+    "name": "Lightningblight",
+    "description": "",
+    "icon": "img/statuses/lightning_rune.png",
+    "tier": 1,
+    "group": 1,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "lightning",
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "lulled",
+    "name": "Lulled",
+    "description": "When lulled in combat, one may be too enamored to attack their opponent.",
+    "icon": "img/statuses/lulled.png",
+    "tier": 1,
+    "group": 0,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Miss turn chance",
+        "value": "20%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "lyonmark",
+    "name": "Lyon's Mark",
+    "description": "",
+    "icon": "img/statuses/lyon.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "holy",
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "lyrarune",
+    "name": "Lyra Sigil",
+    "description": "",
+    "icon": "img/effects/lyra.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "70%"
+      }
+    ]
+  },
+  {
+    "id": "magicup",
+    "name": "Mag ↑",
+    "description": "",
+    "icon": "img/statuses/magic_up.png",
+    "tier": 1,
+    "group": 3,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Magic",
+        "value": "+25%"
+      }
+    ]
+  },
+  {
+    "id": "bigmagicup",
+    "name": "Mag ↑↑",
+    "description": "",
+    "icon": "img/statuses/magic_up_double.png",
+    "tier": 1,
+    "group": 3,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Magic",
+        "value": "+50%"
+      }
+    ]
+  },
+  {
+    "id": "magicdown",
+    "name": "Mag ↓",
+    "description": "",
+    "icon": "img/statuses/magic_down.png",
+    "tier": 1,
+    "group": 3,
+    "listed": false,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Magic",
+        "value": "-20%"
+      }
+    ]
+  },
+  {
+    "id": "manaseep",
+    "name": "Manaseep",
+    "description": "",
+    "icon": "img/statuses/manaseep.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "morriganscurse",
+    "name": "Morrigan's Curse",
+    "description": "When afflicted with this curse, one may become a monster after 3 turns.",
+    "icon": "img/statuses/morrigans_curse.png",
+    "tier": 1,
+    "group": 1,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "100%"
+      }
+    ]
+  },
+  {
+    "id": "greaves2",
+    "name": "Mythril Greaves",
+    "description": "",
+    "icon": "img/statuses/greaves2.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "-20%"
+      }
+    ]
+  },
+  {
+    "id": "pauldrons2",
+    "name": "Mythril Pauldrons",
+    "description": "",
+    "icon": "img/statuses/pauldrons2.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Defense",
+        "value": "-40%"
+      },
+      {
+        "label": "Resistance",
+        "value": "-40%"
+      }
+    ]
+  },
+  {
+    "id": "oceanusrune",
+    "name": "Oceanus",
+    "description": "",
+    "icon": "img/statuses/rune_oceanus.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Miss turn chance",
+        "value": "40%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Dodging",
+        "value": "Blocked"
+      }
+    ]
+  },
+  {
+    "id": "ophionstance",
+    "name": "Ophion of Olympia",
+    "description": "",
+    "icon": "img/statuses/ophion.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "paralyzed",
+    "name": "Paralyzed",
+    "description": "When paralyzed in combat, one may seldomly be unable to act on their turn.",
+    "icon": "img/statuses/paralyzed.png",
+    "tier": 1,
+    "group": 0,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Miss turn chance",
+        "value": "20%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      }
+    ]
+  },
+  {
+    "id": "phoenixpledge",
+    "name": "Phoenix's Pledge",
+    "description": "",
+    "icon": "img/statuses/phoenix.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      }
+    ]
+  },
+  {
+    "id": "poisoned",
+    "name": "Poisoned",
+    "description": "When afflicted with poison in combat, one takes damage on every turn.",
+    "icon": "img/statuses/poison.png",
+    "tier": 1,
+    "group": 1,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "2%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "polluxfirst",
+    "name": "Pollux",
+    "description": "",
+    "icon": "img/bosses/pollux.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "dark",
+    "immune_element": "lightning",
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      },
+      {
+        "label": "Attack",
+        "value": "+100%"
+      },
+      {
+        "label": "Magic",
+        "value": "-50%"
+      },
+      {
+        "label": "Defense",
+        "value": "+100%"
+      },
+      {
+        "label": "Resistance",
+        "value": "-50%"
+      },
+      {
+        "label": "Dexterity",
+        "value": "+300%"
+      }
+    ]
+  },
+  {
+    "id": "powereos",
+    "name": "Power of Titan Eos",
+    "description": "",
+    "icon": "img/statuses/rune_eos.png",
+    "tier": 1,
+    "group": 0,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Healing per turn",
+        "value": "5%"
+      },
+      {
+        "label": "Attack",
+        "value": "+100%"
+      },
+      {
+        "label": "Magic",
+        "value": "+100%"
+      },
+      {
+        "label": "Defense",
+        "value": "+100%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+100%"
+      }
+    ]
+  },
+  {
+    "id": "powerofoceanus",
+    "name": "Power of Titan Oceanus",
+    "description": "",
+    "icon": "img/statuses/rune_oceanus.png",
+    "tier": 1,
+    "group": 0,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "+100%"
+      },
+      {
+        "label": "Magic",
+        "value": "+100%"
+      },
+      {
+        "label": "Defense",
+        "value": "+100%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+100%"
+      }
+    ]
+  },
+  {
+    "id": "powerofprometheus",
+    "name": "Power of Titan Prometheus",
+    "description": "",
+    "icon": "img/statuses/rune_prometheus.png",
+    "tier": 1,
+    "group": 0,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": "fire",
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "+100%"
+      },
+      {
+        "label": "Magic",
+        "value": "+100%"
+      },
+      {
+        "label": "Defense",
+        "value": "+100%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+100%"
+      }
+    ]
+  },
+  {
+    "id": "powerofselene",
+    "name": "Power of Titan Selene",
+    "description": "",
+    "icon": "img/statuses/rune_selene.png",
+    "tier": 1,
+    "group": 0,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "+100%"
+      },
+      {
+        "label": "Magic",
+        "value": "+100%"
+      },
+      {
+        "label": "Defense",
+        "value": "+100%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+100%"
+      }
+    ]
+  },
+  {
+    "id": "powerofthemis",
+    "name": "Power of Titan Themis",
+    "description": "",
+    "icon": "img/statuses/rune_themis.png",
+    "tier": 1,
+    "group": 0,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "+100%"
+      },
+      {
+        "label": "Magic",
+        "value": "+100%"
+      },
+      {
+        "label": "Defense",
+        "value": "+100%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+100%"
+      }
+    ]
+  },
+  {
+    "id": "promrune",
+    "name": "Prometheus",
+    "description": "",
+    "icon": "img/statuses/rune_prometheus.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "5%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      }
+    ]
+  },
+  {
+    "id": "puzzlemakersambrosia",
+    "name": "Puzzlemaker's Ambrosia",
+    "description": "",
+    "icon": "img/useables/puzzlemakersambrosia.png",
+    "tier": 1,
+    "group": 0,
+    "listed": false,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "1%"
+      }
+    ]
+  },
+  {
+    "id": "rand",
+    "name": "Rand ↑↑",
+    "description": "",
+    "icon": "img/statuses/rand.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "reraise",
+    "name": "Reraise",
+    "description": "",
+    "icon": "img/statuses/holy_imbue.png",
+    "tier": 1,
+    "group": 0,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      }
+    ]
+  },
+  {
+    "id": "magicdefenseup",
+    "name": "Res ↑",
+    "description": "",
+    "icon": "img/statuses/magic_defense_up.png",
+    "tier": 1,
+    "group": 4,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Resistance",
+        "value": "+25%"
+      }
+    ]
+  },
+  {
+    "id": "bigmagicdefenseup",
+    "name": "Res ↑↑",
+    "description": "",
+    "icon": "img/statuses/magic_defense_up_double.png",
+    "tier": 1,
+    "group": 4,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Resistance",
+        "value": "+50%"
+      }
+    ]
+  },
+  {
+    "id": "magicdefensedown",
+    "name": "Res ↓",
+    "description": "",
+    "icon": "img/statuses/magic_defense_down.png",
+    "tier": 1,
+    "group": 4,
+    "listed": false,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Resistance",
+        "value": "-20%"
+      }
+    ]
+  },
+  {
+    "id": "bigmagicdefensedown",
+    "name": "Res ↓↓",
+    "description": "",
+    "icon": "img/statuses/magic_defense_down_double.png",
+    "tier": 1,
+    "group": 4,
+    "listed": false,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Resistance",
+        "value": "-80%"
+      }
+    ]
+  },
+  {
+    "id": "rotted",
+    "name": "Rot",
+    "description": "When afflicted with rot in combat, one takes damage on every turn and has their magical and physical defense stats lowered.",
+    "icon": "img/statuses/rot.png",
+    "tier": 1,
+    "group": 1,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "3%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      },
+      {
+        "label": "Defense",
+        "value": "-10%"
+      },
+      {
+        "label": "Resistance",
+        "value": "-10%"
+      }
+    ]
+  },
+  {
+    "id": "selenerune",
+    "name": "Selene",
+    "description": "",
+    "icon": "img/statuses/rune_selene.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "80%"
+      }
+    ]
+  },
+  {
+    "id": "shadowveil",
+    "name": "Shadowveil",
+    "description": "",
+    "icon": "img/statuses/shadowveil.png",
+    "tier": 1,
+    "group": 3,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "20%"
+      },
+      {
+        "label": "Ward burn per turn",
+        "value": "20%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "100%"
+      },
+      {
+        "label": "Attack",
+        "value": "+40%"
+      },
+      {
+        "label": "Dexterity",
+        "value": "+100%"
+      }
+    ]
+  },
+  {
+    "id": "lesserskadi",
+    "name": "Skadi ↑",
+    "description": "",
+    "icon": "img/statuses/skadi.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "skadi",
+    "name": "Skadi ↑↑",
+    "description": "",
+    "icon": "img/statuses/skadi.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "skadiii",
+    "name": "Skadi ↑↑↑",
+    "description": "",
+    "icon": "img/statuses/skadi.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "magicgait",
+    "name": "Snotra",
+    "description": "",
+    "icon": "img/statuses/snotra.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "-90%"
+      },
+      {
+        "label": "Magic",
+        "value": "+50%"
+      },
+      {
+        "label": "Defense",
+        "value": "-90%"
+      }
+    ]
+  },
+  {
+    "id": "greaves3",
+    "name": "Spiked Greaves",
+    "description": "",
+    "icon": "img/statuses/greaves3.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "-25%"
+      }
+    ]
+  },
+  {
+    "id": "pauldrons3",
+    "name": "Spiked Pauldrons",
+    "description": "",
+    "icon": "img/statuses/pauldrons3.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Defense",
+        "value": "-60%"
+      },
+      {
+        "label": "Resistance",
+        "value": "-60%"
+      }
+    ]
+  },
+  {
+    "id": "stunned",
+    "name": "Stunned",
+    "description": "When stunned in combat, one may not be able to act on their turn.",
+    "icon": "img/statuses/stunned.png",
+    "tier": 1,
+    "group": 0,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Miss turn chance",
+        "value": "50%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Dodging",
+        "value": "Blocked"
+      }
+    ]
+  },
+  {
+    "id": "unstablechanneled",
+    "name": "T. ? ↑↑↑",
+    "description": "",
+    "icon": "img/statuses/channel.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      },
+      {
+        "label": "Attack",
+        "value": "+20%"
+      },
+      {
+        "label": "Magic",
+        "value": "+20%"
+      },
+      {
+        "label": "Defense",
+        "value": "+20%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+20%"
+      }
+    ]
+  },
+  {
+    "id": "tempallup",
+    "name": "T. All ↑",
+    "description": "",
+    "icon": "img/statuses/channel.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Attack",
+        "value": "+20%"
+      },
+      {
+        "label": "Magic",
+        "value": "+20%"
+      },
+      {
+        "label": "Defense",
+        "value": "+20%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+20%"
+      }
+    ]
+  },
+  {
+    "id": "tempallup2",
+    "name": "T. All ↑↑",
+    "description": "",
+    "icon": "img/statuses/channel.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Attack",
+        "value": "+50%"
+      },
+      {
+        "label": "Magic",
+        "value": "+50%"
+      },
+      {
+        "label": "Defense",
+        "value": "+50%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+50%"
+      }
+    ]
+  },
+  {
+    "id": "channeled",
+    "name": "T. All ↑↑↑",
+    "description": "",
+    "icon": "img/statuses/channel.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Attack",
+        "value": "+100%"
+      },
+      {
+        "label": "Magic",
+        "value": "+100%"
+      },
+      {
+        "label": "Defense",
+        "value": "+100%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+100%"
+      }
+    ]
+  },
+  {
+    "id": "break",
+    "name": "T. All ↓",
+    "description": "",
+    "icon": "img/statuses/break.png",
+    "tier": 1,
+    "group": 4,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Attack",
+        "value": "-50%"
+      },
+      {
+        "label": "Magic",
+        "value": "-50%"
+      },
+      {
+        "label": "Defense",
+        "value": "-50%"
+      },
+      {
+        "label": "Resistance",
+        "value": "-50%"
+      }
+    ]
+  },
+  {
+    "id": "tempattackup",
+    "name": "T. Att ↑",
+    "description": "",
+    "icon": "img/statuses/attack_up_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Attack",
+        "value": "+25%"
+      }
+    ]
+  },
+  {
+    "id": "tempbigattackup",
+    "name": "T. Att ↑↑",
+    "description": "",
+    "icon": "img/statuses/attack_up_double_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Attack",
+        "value": "+50%"
+      }
+    ]
+  },
+  {
+    "id": "temphugeattackup",
+    "name": "T. Att ↑↑↑",
+    "description": "",
+    "icon": "img/statuses/attack_up_triple_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      },
+      {
+        "label": "Attack",
+        "value": "+100%"
+      }
+    ]
+  },
+  {
+    "id": "tempattackdown",
+    "name": "T. Att ↓",
+    "description": "",
+    "icon": "img/statuses/attack_down_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Attack",
+        "value": "-20%"
+      }
+    ]
+  },
+  {
+    "id": "tempbigattackdown",
+    "name": "T. Att ↓↓",
+    "description": "",
+    "icon": "img/statuses/attack_down_double_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Attack",
+        "value": "-80%"
+      }
+    ]
+  },
+  {
+    "id": "temphugeattackdown",
+    "name": "T. Att ↓↓↓",
+    "description": "",
+    "icon": "img/statuses/attack_down_triple_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "75%"
+      },
+      {
+        "label": "Attack",
+        "value": "-90%"
+      }
+    ]
+  },
+  {
+    "id": "tempcritup",
+    "name": "T. Crit ↑",
+    "description": "",
+    "icon": "img/statuses/crit_up_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Crit",
+        "value": "+20%"
+      }
+    ]
+  },
+  {
+    "id": "tempbigcritup",
+    "name": "T. Crit ↑↑",
+    "description": "",
+    "icon": "img/statuses/crit_up_double_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Crit",
+        "value": "+50%"
+      }
+    ]
+  },
+  {
+    "id": "temphugecritup",
+    "name": "T. Crit ↑↑↑",
+    "description": "",
+    "icon": "img/statuses/crit_up_triple_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Attack",
+        "value": "+10%"
+      },
+      {
+        "label": "Crit",
+        "value": "+60%"
+      }
+    ]
+  },
+  {
+    "id": "darkfacade",
+    "name": "T. Dark Immune",
+    "description": "",
+    "icon": "img/statuses/dark_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": "dark",
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "darkfacadeii",
+    "name": "T. Dark Immune ↑↑",
+    "description": "",
+    "icon": "img/statuses/dark_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": "dark",
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "7%"
+      }
+    ]
+  },
+  {
+    "id": "tempdefenseup",
+    "name": "T. Def ↑",
+    "description": "",
+    "icon": "img/statuses/defense_up_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Defense",
+        "value": "+25%"
+      }
+    ]
+  },
+  {
+    "id": "tempbigdefenseup",
+    "name": "T. Def ↑↑",
+    "description": "",
+    "icon": "img/statuses/defense_up_double_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Defense",
+        "value": "+50%"
+      }
+    ]
+  },
+  {
+    "id": "temphugedefenseup",
+    "name": "T. Def ↑↑↑",
+    "description": "",
+    "icon": "img/statuses/defense_up_triple_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Defense",
+        "value": "+100%"
+      }
+    ]
+  },
+  {
+    "id": "tempdefensedown",
+    "name": "T. Def ↓",
+    "description": "",
+    "icon": "img/statuses/defense_down_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Defense",
+        "value": "-20%"
+      }
+    ]
+  },
+  {
+    "id": "tempbigdefdown",
+    "name": "T. Def ↓↓",
+    "description": "",
+    "icon": "img/statuses/defense_down_double_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Defense",
+        "value": "-80%"
+      }
+    ]
+  },
+  {
+    "id": "temphugedefdown",
+    "name": "T. Def ↓↓↓",
+    "description": "",
+    "icon": "img/statuses/defense_down_triple_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "75%"
+      },
+      {
+        "label": "Defense",
+        "value": "-90%"
+      }
+    ]
+  },
+  {
+    "id": "tempdexup",
+    "name": "T. Dex ↑",
+    "description": "",
+    "icon": "img/statuses/dex_up_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Dexterity",
+        "value": "+100%"
+      }
+    ]
+  },
+  {
+    "id": "tempbigdexup",
+    "name": "T. Dex ↑↑",
+    "description": "",
+    "icon": "img/statuses/dex_up_double_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Dexterity",
+        "value": "+400%"
+      }
+    ]
+  },
+  {
+    "id": "temphugedexup",
+    "name": "T. Dex ↑↑↑",
+    "description": "",
+    "icon": "img/statuses/dex_up_triple_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Dexterity",
+        "value": "+900%"
+      }
+    ]
+  },
+  {
+    "id": "dexdown",
+    "name": "T. Dex ↓",
+    "description": "",
+    "icon": "img/statuses/dex_down_temp.png",
+    "tier": 1,
+    "group": 4,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      },
+      {
+        "label": "Dexterity",
+        "value": "-50%"
+      }
+    ]
+  },
+  {
+    "id": "dmgdown",
+    "name": "T. Dmg ↓",
+    "description": "",
+    "icon": "img/statuses/attack_down_double_temp.png",
+    "tier": 1,
+    "group": 3,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Attack",
+        "value": "-75%"
+      },
+      {
+        "label": "Magic",
+        "value": "-75%"
+      }
+    ]
+  },
+  {
+    "id": "bigdmgdown",
+    "name": "T. Dmg ↓↓",
+    "description": "",
+    "icon": "img/statuses/attack_down_double_temp.png",
+    "tier": 1,
+    "group": 3,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Attack",
+        "value": "-85%"
+      },
+      {
+        "label": "Magic",
+        "value": "-85%"
+      }
+    ]
+  },
+  {
+    "id": "earthfacade",
+    "name": "T. Earth Immune",
+    "description": "",
+    "icon": "img/statuses/earth_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": "earthen",
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "earthfacadeii",
+    "name": "T. Earth Immune ↑↑",
+    "description": "",
+    "icon": "img/statuses/earth_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": "earthen",
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "7%"
+      }
+    ]
+  },
+  {
+    "id": "firefacade",
+    "name": "T. Fire Immune",
+    "description": "",
+    "icon": "img/statuses/fire_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": "fire",
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "firefacadeii",
+    "name": "T. Fire Immune ↑↑",
+    "description": "",
+    "icon": "img/statuses/fire_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": "fire",
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "7%"
+      }
+    ]
+  },
+  {
+    "id": "holyfacade",
+    "name": "T. Holy Immune",
+    "description": "",
+    "icon": "img/statuses/holy_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": "holy",
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "holyfacadeii",
+    "name": "T. Holy Immune ↑↑",
+    "description": "",
+    "icon": "img/statuses/holy_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": "holy",
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "7%"
+      }
+    ]
+  },
+  {
+    "id": "lightningfacade",
+    "name": "T. Lightning Immune",
+    "description": "",
+    "icon": "img/statuses/lightning_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": "lightning",
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "lightningfacadeii",
+    "name": "T. Lightning Immune ↑↑",
+    "description": "",
+    "icon": "img/statuses/lightning_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": "lightning",
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "7%"
+      }
+    ]
+  },
+  {
+    "id": "tempmagicup",
+    "name": "T. Mag ↑",
+    "description": "",
+    "icon": "img/statuses/magic_up_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Magic",
+        "value": "+25%"
+      }
+    ]
+  },
+  {
+    "id": "tempbigmagicup",
+    "name": "T. Mag ↑↑",
+    "description": "",
+    "icon": "img/statuses/magic_up_double_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Magic",
+        "value": "+50%"
+      }
+    ]
+  },
+  {
+    "id": "temphugemagicup",
+    "name": "T. Mag ↑↑↑",
+    "description": "",
+    "icon": "img/statuses/magic_up_triple_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      },
+      {
+        "label": "Magic",
+        "value": "+100%"
+      }
+    ]
+  },
+  {
+    "id": "tempmagicdown",
+    "name": "T. Mag ↓",
+    "description": "",
+    "icon": "img/statuses/magic_down_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Magic",
+        "value": "-20%"
+      }
+    ]
+  },
+  {
+    "id": "tempbigmagicdown",
+    "name": "T. Mag ↓↓",
+    "description": "",
+    "icon": "img/statuses/magic_down_double_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Magic",
+        "value": "-80%"
+      }
+    ]
+  },
+  {
+    "id": "temphugemagicdown",
+    "name": "T. Mag ↓↓↓",
+    "description": "",
+    "icon": "img/statuses/magic_down_triple_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "75%"
+      },
+      {
+        "label": "Magic",
+        "value": "-90%"
+      }
+    ]
+  },
+  {
+    "id": "tempmagicdefenseup",
+    "name": "T. Res ↑",
+    "description": "",
+    "icon": "img/statuses/magic_defense_up_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+25%"
+      }
+    ]
+  },
+  {
+    "id": "tempbigmagicdefenseup",
+    "name": "T. Res ↑↑",
+    "description": "",
+    "icon": "img/statuses/magic_defense_up_double_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+50%"
+      }
+    ]
+  },
+  {
+    "id": "temphudemagicdefenseup",
+    "name": "T. Res ↑↑↑",
+    "description": "",
+    "icon": "img/statuses/magic_defense_up_triple_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+100%"
+      }
+    ]
+  },
+  {
+    "id": "tempmagicdefensedown",
+    "name": "T. Res ↓",
+    "description": "",
+    "icon": "img/statuses/magic_defense_down_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Resistance",
+        "value": "-20%"
+      }
+    ]
+  },
+  {
+    "id": "tempbigmagdefdown",
+    "name": "T. Res ↓↓",
+    "description": "",
+    "icon": "img/statuses/magic_defense_down_double_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Resistance",
+        "value": "-80%"
+      }
+    ]
+  },
+  {
+    "id": "temphugemagdefdown",
+    "name": "T. Res ↓↓↓",
+    "description": "",
+    "icon": "img/statuses/magic_defense_down_triple_temp.png",
+    "tier": 1,
+    "group": 2,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "75%"
+      },
+      {
+        "label": "Resistance",
+        "value": "-90%"
+      }
+    ]
+  },
+  {
+    "id": "provoke",
+    "name": "T. Target ↑",
+    "description": "",
+    "icon": "img/statuses/provoke.png",
+    "tier": 1,
+    "group": 4,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "5%"
+      }
+    ]
+  },
+  {
+    "id": "bigprovoke",
+    "name": "T. Target ↑↑",
+    "description": "",
+    "icon": "img/statuses/provoke_double.png",
+    "tier": 1,
+    "group": 4,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "5%"
+      }
+    ]
+  },
+  {
+    "id": "appease",
+    "name": "T. Target ↓",
+    "description": "",
+    "icon": "img/statuses/appease.png",
+    "tier": 1,
+    "group": 4,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "5%"
+      }
+    ]
+  },
+  {
+    "id": "bigappease",
+    "name": "T. Target ↓↓",
+    "description": "",
+    "icon": "img/statuses/appease_double.png",
+    "tier": 1,
+    "group": 4,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "5%"
+      }
+    ]
+  },
+  {
+    "id": "icefacade",
+    "name": "T. Water Immune",
+    "description": "",
+    "icon": "img/statuses/ice_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": "water",
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "icefacadeii",
+    "name": "T. Water Immune ↑↑",
+    "description": "",
+    "icon": "img/statuses/ice_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": "water",
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "7%"
+      }
+    ]
+  },
+  {
+    "id": "targetall",
+    "name": "Target: All",
+    "description": "",
+    "icon": "img/statuses/target_up.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "90%"
+      },
+      {
+        "label": "Attack",
+        "value": "-70%"
+      },
+      {
+        "label": "Magic",
+        "value": "-70%"
+      }
+    ]
+  },
+  {
+    "id": "tempered",
+    "name": "Tempered ↓",
+    "description": "",
+    "icon": "img/statuses/tempered.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "15%"
+      }
+    ]
+  },
+  {
+    "id": "bigtempered",
+    "name": "Tempered ↓↓",
+    "description": "",
+    "icon": "img/statuses/tempered_double.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "15%"
+      }
+    ]
+  },
+  {
+    "id": "themisrune",
+    "name": "Themis",
+    "description": "",
+    "icon": "img/statuses/rune_themis.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "offgait",
+    "name": "Thrud",
+    "description": "",
+    "icon": "img/statuses/thrud.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Attack",
+        "value": "+15%"
+      },
+      {
+        "label": "Magic",
+        "value": "+15%"
+      },
+      {
+        "label": "Defense",
+        "value": "-25%"
+      },
+      {
+        "label": "Resistance",
+        "value": "-25%"
+      }
+    ]
+  },
+  {
+    "id": "towering",
+    "name": "Towering",
+    "description": "",
+    "icon": "img/statuses/tower.png",
+    "tier": 1,
+    "group": 1,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Healing per turn",
+        "value": "2%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "treeofdemise",
+    "name": "Tree of Demise",
+    "description": "",
+    "icon": "img/statuses/dark_imbue.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "holy",
+    "immune_element": "dark",
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      },
+      {
+        "label": "Defense",
+        "value": "+300%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+300%"
+      }
+    ]
+  },
+  {
+    "id": "treeoflife",
+    "name": "Tree of Life",
+    "description": "",
+    "icon": "img/statuses/holy_imbue.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "dark",
+    "immune_element": "holy",
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      },
+      {
+        "label": "Defense",
+        "value": "+300%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+300%"
+      }
+    ]
+  },
+  {
+    "id": "icealigned",
+    "name": "Water Aligned",
+    "description": "",
+    "icon": "img/statuses/ice_aligned.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "lightning",
+    "immune_element": "water",
+    "effects": []
+  },
+  {
+    "id": "iceimbue",
+    "name": "Water Att",
+    "description": "",
+    "icon": "img/statuses/ice_imbue.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "icewall",
+    "name": "Water Def",
+    "description": "",
+    "icon": "img/statuses/ice_wall.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": true,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "icerune",
+    "name": "Water Sigil",
+    "description": "",
+    "icon": "img/statuses/ice_rune.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      }
+    ]
+  },
+  {
+    "id": "iceblight",
+    "name": "Waterblight",
+    "description": "",
+    "icon": "img/statuses/ice_rune.png",
+    "tier": 1,
+    "group": 1,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "water",
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "windaligned",
+    "name": "Wind Aligned",
+    "description": "",
+    "icon": "img/statuses/wind_aligned.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "windrune",
+    "name": "Wind Sigil",
+    "description": "",
+    "icon": "img/statuses/wind_rune.png",
+    "tier": 1,
+    "group": 5,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      }
+    ]
+  },
+  {
+    "id": "windblight",
+    "name": "Windblight",
+    "description": "",
+    "icon": "img/statuses/wind_rune.png",
+    "tier": 1,
+    "group": 1,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": "physical",
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "zagreus",
+    "name": "Zagreus",
+    "description": "",
+    "icon": "img/statuses/zagreus.png",
+    "tier": 1,
+    "group": 6,
+    "listed": false,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": []
+  },
+  {
+    "id": "confused",
+    "name": "Confused",
+    "description": "When afflicted with confusion in combat, one may not perform the actions they intended.",
+    "icon": "img/statuses/confuse.png",
+    "tier": 2,
+    "group": 1,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      }
+    ]
+  },
+  {
+    "id": "blighted",
+    "name": "Blight",
+    "description": "When afflicted with blight in combat, one takes damage on every turn and may temporarily be unable to act on their turn.",
+    "icon": "img/statuses/blighted.png",
+    "tier": 3,
+    "group": 1,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "2%"
+      },
+      {
+        "label": "Miss turn chance",
+        "value": "25%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "25%"
+      }
+    ]
+  },
+  {
+    "id": "petrified",
+    "name": "Petrified",
+    "description": "When petrified in combat, one is unable to act on their turn.",
+    "icon": "img/statuses/petrified.png",
+    "tier": 3,
+    "group": 0,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Miss turn chance",
+        "value": "100%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "20%"
+      },
+      {
+        "label": "Dodging",
+        "value": "Blocked"
+      }
+    ]
+  },
+  {
+    "id": "starstruck",
+    "name": "Starstruck",
+    "description": "When starstruck, one will take considerable damage if they do not heal after a countdown.",
+    "icon": "img/statuses/starstruck.png",
+    "tier": 5,
+    "group": 1,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "15%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "30%"
+      }
+    ]
+  },
+  {
+    "id": "windswept",
+    "name": "Windswept",
+    "description": "When windswept in combat, one has their ability to perform a critical hit greatly decreased.",
+    "icon": "img/statuses/windswept.png",
+    "tier": 5,
+    "group": 1,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "15%"
+      },
+      {
+        "label": "Crit",
+        "value": "-50%"
+      }
+    ]
+  },
+  {
+    "id": "doom",
+    "name": "Doom",
+    "description": "When afflicted with doom in combat, one will find certain doom after some time.",
+    "icon": "img/statuses/doom.png",
+    "tier": 7,
+    "group": 1,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "200%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "3%"
+      }
+    ]
+  },
+  {
+    "id": "stasis",
+    "name": "Stasis",
+    "description": "When frozen in time, one is unable to act on their turn.",
+    "icon": "img/statuses/stasis.png",
+    "tier": 7,
+    "group": 0,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Miss turn chance",
+        "value": "90%"
+      },
+      {
+        "label": "Chance to fade",
+        "value": "50%"
+      },
+      {
+        "label": "Foresight",
+        "value": "-50%"
+      },
+      {
+        "label": "Dodging",
+        "value": "Blocked"
+      }
+    ]
+  },
+  {
+    "id": "toxic",
+    "name": "Toxic",
+    "description": "When afflicted with toxic in combat, one takes moderate damage on every turn.",
+    "icon": "img/statuses/toxic.png",
+    "tier": 7,
+    "group": 1,
+    "listed": true,
+    "is_negative": true,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "id": "bloodshift",
+    "name": "Bloodshift",
+    "description": "When afflicted with bloodshift, it will not be possible to heal or revive oneself.",
+    "icon": "img/statuses/bloodshift.png",
+    "tier": 10,
+    "group": 1,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Chance to fade",
+        "value": "15%"
+      },
+      {
+        "label": "Attack",
+        "value": "+10%"
+      },
+      {
+        "label": "Magic",
+        "value": "+10%"
+      },
+      {
+        "label": "Defense",
+        "value": "+10%"
+      },
+      {
+        "label": "Resistance",
+        "value": "+10%"
+      },
+      {
+        "label": "Crit",
+        "value": "+5%"
+      }
+    ]
+  },
+  {
+    "id": "cursesekhmet",
+    "name": "Curse of Sekhmet",
+    "description": "When afflicted with this curse, it will not be possible to heal or revive oneself. Additionally, one will take damage each turn.",
+    "icon": "img/bosses/thronemakers_sekhmet.png",
+    "tier": 10,
+    "group": 6,
+    "listed": true,
+    "is_negative": false,
+    "is_positive": false,
+    "weak_element": null,
+    "immune_element": null,
+    "effects": [
+      {
+        "label": "Damage per turn",
+        "value": "10%"
+      }
+    ]
+  }
+]
