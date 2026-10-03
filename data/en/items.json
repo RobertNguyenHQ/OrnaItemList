@@ -10399,10 +10399,12 @@
     "dropped_by_raids": [],
     "material_for": [],
     "quest_reward_from": [
-      "b4bf6b52-c314-4b29-b115-aeec2bf6247e"
+      "b4bf6b52-c314-4b29-b115-aeec2bf6247e",
+      "0080150a-ea45-45da-b29e-a84a6f0dc578"
     ],
     "reward_quests": [
-      "7aaf6eb4-0701-4344-ab79-fa68fade6f11"
+      "7aaf6eb4-0701-4344-ab79-fa68fade6f11",
+      "77f57398-ccf7-4363-b3fd-bed2dfb50bde"
     ],
     "summon_raids": [],
     "summon_note": null
@@ -41490,12 +41492,8 @@
     "dropped_by": [],
     "dropped_by_raids": [],
     "material_for": [],
-    "quest_reward_from": [
-      "0080150a-ea45-45da-b29e-a84a6f0dc578"
-    ],
-    "reward_quests": [
-      "93034de9-28c5-47be-8b0b-c1261e49b71d"
-    ],
+    "quest_reward_from": [],
+    "reward_quests": [],
     "summon_raids": [],
     "summon_note": null
   },
@@ -43325,8 +43323,12 @@
     ],
     "dropped_by_raids": [],
     "material_for": [],
-    "quest_reward_from": [],
-    "reward_quests": [],
+    "quest_reward_from": [
+      "0080150a-ea45-45da-b29e-a84a6f0dc578"
+    ],
+    "reward_quests": [
+      "a4791043-dbcc-4e45-97df-e0d56a2ca125"
+    ],
     "summon_raids": [],
     "summon_note": null
   },
@@ -45212,8 +45214,12 @@
     ],
     "dropped_by_raids": [],
     "material_for": [],
-    "quest_reward_from": [],
-    "reward_quests": [],
+    "quest_reward_from": [
+      "0080150a-ea45-45da-b29e-a84a6f0dc578"
+    ],
+    "reward_quests": [
+      "fd3bb847-9b4c-440f-b381-bf6311b37f52"
+    ],
     "summon_raids": [],
     "summon_note": null
   },
@@ -129948,7 +129954,7 @@
     },
     "traits": [
       "Hybrid Damage: +10%",
-      "Disperse Status Effect Chance: +10%"
+      "Ally Effect Chance: +10%"
     ],
     "adornment_slots": 2,
     "weapon_ability": null,
