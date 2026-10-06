@@ -3992,12 +3992,8 @@
       "58e854da-7173-4f1d-9fc7-0321c9091192",
       "dbadbe8d-db5d-466d-898b-67b66fa6acee"
     ],
-    "quest_reward_from": [
-      "3b00fc36-d8f6-47bc-b311-bed5ea8e5444"
-    ],
-    "reward_quests": [
-      "7d39e6f3-d1c9-465b-8b5d-bd2eba65a965"
-    ],
+    "quest_reward_from": [],
+    "reward_quests": [],
     "summon_raids": [],
     "summon_note": null
   },
@@ -6743,11 +6739,9 @@
       "dbadbe8d-db5d-466d-898b-67b66fa6acee"
     ],
     "quest_reward_from": [
-      "0463dfd7-1c29-4927-9baa-e5d1086bb313",
       "b29585b5-fdb8-46a0-9217-fe9405459004"
     ],
     "reward_quests": [
-      "59a80ddd-68dd-46c1-b831-4872e6178111",
       "549bcb0d-4fe6-47d8-bc4c-92e96e06df7a"
     ],
     "summon_raids": [],
@@ -7824,12 +7818,8 @@
       "407df45d-f12d-474e-af3c-20555ac0432a",
       "c9f1aa96-fb2f-4c50-8086-e6e9575da073"
     ],
-    "quest_reward_from": [
-      "129355db-f205-4c05-87f8-baa1a3c78b5a"
-    ],
-    "reward_quests": [
-      "0080f060-03c0-45aa-b4cb-d608d39513eb"
-    ],
+    "quest_reward_from": [],
+    "reward_quests": [],
     "summon_raids": [],
     "summon_note": null
   },
@@ -10061,9 +10051,11 @@
       "4186eb52-53ee-4b3d-a273-636859e2c78c"
     ],
     "quest_reward_from": [
+      "0463dfd7-1c29-4927-9baa-e5d1086bb313",
       "cb27c775-1985-456c-be65-33178a572715"
     ],
     "reward_quests": [
+      "6fe98ca7-3eba-429a-ac13-ac665aa8e09e",
       "bbc3c27b-f4bb-4402-bd7c-442911e3699e"
     ],
     "summon_raids": [],
@@ -26630,12 +26622,8 @@
     ],
     "dropped_by_raids": [],
     "material_for": [],
-    "quest_reward_from": [
-      "44fe5a9e-8918-4f38-90cf-6a103afb84cc"
-    ],
-    "reward_quests": [
-      "aaed2b1f-15d8-4d6e-8732-dbf71ebba6a7"
-    ],
+    "quest_reward_from": [],
+    "reward_quests": [],
     "summon_raids": [],
     "summon_note": null
   },
@@ -36741,12 +36729,8 @@
     ],
     "dropped_by_raids": [],
     "material_for": [],
-    "quest_reward_from": [
-      "200edd0b-fd5e-49c1-b652-e15a5cf35d08"
-    ],
-    "reward_quests": [
-      "81832010-0d0b-43fe-bfdd-fb701ead3852"
-    ],
+    "quest_reward_from": [],
+    "reward_quests": [],
     "summon_raids": [],
     "summon_note": null
   },
@@ -39480,12 +39464,8 @@
     ],
     "dropped_by_raids": [],
     "material_for": [],
-    "quest_reward_from": [
-      "200edd0b-fd5e-49c1-b652-e15a5cf35d08"
-    ],
-    "reward_quests": [
-      "7080e226-ae64-403d-8738-9c76633a3c3a"
-    ],
+    "quest_reward_from": [],
+    "reward_quests": [],
     "summon_raids": [],
     "summon_note": null
   },
@@ -39552,12 +39532,8 @@
     ],
     "dropped_by_raids": [],
     "material_for": [],
-    "quest_reward_from": [
-      "200edd0b-fd5e-49c1-b652-e15a5cf35d08"
-    ],
-    "reward_quests": [
-      "a9ceec9c-a290-4250-a116-5f384e23cf3e"
-    ],
+    "quest_reward_from": [],
+    "reward_quests": [],
     "summon_raids": [],
     "summon_note": null
   },
@@ -44548,11 +44524,9 @@
     "dropped_by_raids": [],
     "material_for": [],
     "quest_reward_from": [
-      "44fe5a9e-8918-4f38-90cf-6a103afb84cc",
       "9ca66ea7-ec9c-4ed4-9f04-7fd402b842f7"
     ],
     "reward_quests": [
-      "158d8452-9802-4758-9060-73a3f22dfbf5",
       "94a50cd1-df8d-410a-a076-51377dbe4a8e"
     ],
     "summon_raids": [],
@@ -82185,8 +82159,12 @@
       "8b198d18-e6b0-4df4-887b-2b4566ef9435"
     ],
     "material_for": [],
-    "quest_reward_from": [],
-    "reward_quests": [],
+    "quest_reward_from": [
+      "129355db-f205-4c05-87f8-baa1a3c78b5a"
+    ],
+    "reward_quests": [
+      "ac096f0e-8474-4823-a0b9-b49ebbed8b8e"
+    ],
     "summon_raids": [],
     "summon_note": null
   },
@@ -93846,8 +93824,12 @@
     ],
     "dropped_by_raids": [],
     "material_for": [],
-    "quest_reward_from": [],
-    "reward_quests": [],
+    "quest_reward_from": [
+      "3b00fc36-d8f6-47bc-b311-bed5ea8e5444"
+    ],
+    "reward_quests": [
+      "d1660689-bf0b-47ea-86c1-0ff6459c10fe"
+    ],
     "summon_raids": [],
     "summon_note": null
   },
@@ -174629,7 +174611,9 @@
       "crit": 1,
       "foresight": 0
     },
-    "traits": [],
+    "traits": [
+      "Chain Damage Chance: +20%"
+    ],
     "adornment_slots": 8,
     "weapon_ability": "WeaponArcaneStrikeIII",
     "causes": [],
