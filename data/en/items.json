@@ -35043,12 +35043,8 @@
       "e4890a0c-8ac2-45dc-9435-a0e7035a2aba"
     ],
     "material_for": [],
-    "quest_reward_from": [
-      "0476ac82-5078-4420-a999-2149b3e0e6a7"
-    ],
-    "reward_quests": [
-      "8e6bfe7a-3e6d-46a7-90c7-39915f110812"
-    ],
+    "quest_reward_from": [],
+    "reward_quests": [],
     "summon_raids": [],
     "summon_note": null
   },
@@ -82314,11 +82310,9 @@
     ],
     "material_for": [],
     "quest_reward_from": [
-      "2ccab49b-baca-4c0f-828d-d55e04333e3f",
-      "0476ac82-5078-4420-a999-2149b3e0e6a7"
+      "2ccab49b-baca-4c0f-828d-d55e04333e3f"
     ],
     "reward_quests": [
-      "ec5f80de-9ab2-4a21-a8c1-8798168e616c",
       "82eba38e-5db7-40ab-a952-630405bc564f"
     ],
     "summon_raids": [],
