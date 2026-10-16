@@ -7979,12 +7979,10 @@
     ],
     "material_for": [],
     "quest_reward_from": [
-      "0463dfd7-1c29-4927-9baa-e5d1086bb313",
       "a108b2e5-e4c3-4417-b757-e9baa34d0e8e"
     ],
     "reward_quests": [
       "a9a7c47d-68b3-462e-ac88-ac035ba3d219",
-      "9e70da9d-c569-4bbb-a401-7740e78e3c11",
       "6cebb3e5-b52f-4eb9-95e4-ac099043b4c3"
     ],
     "summon_raids": [],
