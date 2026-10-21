@@ -3344,9 +3344,11 @@
       "65a3f8d0-fedd-440a-9e2b-df098a826d39"
     ],
     "quest_reward_from": [
+      "44fe5a9e-8918-4f38-90cf-6a103afb84cc",
       "c330d813-9687-431b-a878-f164d5850f93"
     ],
     "reward_quests": [
+      "209aba90-6bf0-432f-90cb-869fe528ab11",
       "8132c6f1-7561-4255-970e-e4b97055fce9"
     ],
     "summon_raids": [],
@@ -174899,7 +174901,7 @@
       "foresight": 0
     },
     "traits": [
-      "Chain Damage Chance: +20%"
+      "Chain Damage Chance: +30%"
     ],
     "adornment_slots": 8,
     "weapon_ability": "WeaponArcaneStrikeIII",
