@@ -11020,12 +11020,8 @@
       "407df45d-f12d-474e-af3c-20555ac0432a",
       "0fae8437-abc1-4495-b706-27e76f2e924b"
     ],
-    "quest_reward_from": [
-      "0463dfd7-1c29-4927-9baa-e5d1086bb313"
-    ],
-    "reward_quests": [
-      "1af82996-5c79-4132-a9f8-96bed3898ca7"
-    ],
+    "quest_reward_from": [],
+    "reward_quests": [],
     "summon_raids": [],
     "summon_note": null
   },
@@ -19124,12 +19120,8 @@
     ],
     "dropped_by_raids": [],
     "material_for": [],
-    "quest_reward_from": [
-      "0463dfd7-1c29-4927-9baa-e5d1086bb313"
-    ],
-    "reward_quests": [
-      "4a93720a-1cec-4ab8-b7db-699ec465a600"
-    ],
+    "quest_reward_from": [],
+    "reward_quests": [],
     "summon_raids": [],
     "summon_note": null
   },
@@ -40930,12 +40922,8 @@
     "dropped_by": [],
     "dropped_by_raids": [],
     "material_for": [],
-    "quest_reward_from": [
-      "0463dfd7-1c29-4927-9baa-e5d1086bb313"
-    ],
-    "reward_quests": [
-      "e01d12ec-c2ba-45dc-89cb-10886b978f67"
-    ],
+    "quest_reward_from": [],
+    "reward_quests": [],
     "summon_raids": [],
     "summon_note": null
   },
